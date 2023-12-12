@@ -1,0 +1,9 @@
+﻿@using WoinRules;
+@using Attribute = WoinRules.Attribute
+
+<h4>@Attribute.ShortName</h4>
+
+@code {
+    [Parameter]
+    public Attribute Attribute { get; set; }
+}

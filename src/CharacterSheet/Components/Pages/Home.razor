@@ -1,8 +1,11 @@
 ﻿@page "/"
 @page "/home"
+@using WoinRules
 
 <h1 class="text-xl">Home</h1>
 
-@code {
+<CharacterView Character="@_character" />
 
+@code {
+    private readonly Character _character = new Character(EraOfPlay.Archaic);
 }

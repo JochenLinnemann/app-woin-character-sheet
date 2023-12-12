@@ -1,0 +1,14 @@
+﻿@inherits ComponentBase
+@using WoinRules
+
+<h3>Character View</h3>
+
+@foreach (var attr in Character.Attributes)
+{
+    <AttributeView Attribute="@attr"></AttributeView>
+}
+
+@code {
+    [Parameter]
+    public Character Character { get; set; }
+}

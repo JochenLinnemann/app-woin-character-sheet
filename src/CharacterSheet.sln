@@ -11,9 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WoinRules", "WoinRules\WoinRules.csproj", "{F9C3493D-1DCD-4E30-B74E-7ABB9E1DBCE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WoinRules", "WoinRules\WoinRules.csproj", "{F9C3493D-1DCD-4E30-B74E-7ABB9E1DBCE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WoinRules.Tests", "WoinRules.Tests\WoinRules.Tests.csproj", "{49B7D5B6-F727-496A-BE3E-2056F6875F83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WoinRules.Tests", "WoinRules.Tests\WoinRules.Tests.csproj", "{49B7D5B6-F727-496A-BE3E-2056F6875F83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
