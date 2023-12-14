@@ -15,6 +15,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WoinRules", "WoinRules\Woin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WoinRules.Tests", "WoinRules.Tests\WoinRules.Tests.csproj", "{49B7D5B6-F727-496A-BE3E-2056F6875F83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterSheet.Web.Server", "CharacterSheet.Web\CharacterSheet.Web.Server\CharacterSheet.Web.Server.csproj", "{D56FF1D4-6480-46AF-9714-542F4B3ED6A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterSheet.Web.Client", "CharacterSheet.Web\CharacterSheet.Web.Client\CharacterSheet.Web.Client.csproj", "{CE0C5E66-042F-49B0-96A7-3C280A5576D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +39,14 @@ Global
 		{49B7D5B6-F727-496A-BE3E-2056F6875F83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49B7D5B6-F727-496A-BE3E-2056F6875F83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49B7D5B6-F727-496A-BE3E-2056F6875F83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D56FF1D4-6480-46AF-9714-542F4B3ED6A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D56FF1D4-6480-46AF-9714-542F4B3ED6A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D56FF1D4-6480-46AF-9714-542F4B3ED6A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D56FF1D4-6480-46AF-9714-542F4B3ED6A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE0C5E66-042F-49B0-96A7-3C280A5576D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE0C5E66-042F-49B0-96A7-3C280A5576D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE0C5E66-042F-49B0-96A7-3C280A5576D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE0C5E66-042F-49B0-96A7-3C280A5576D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
