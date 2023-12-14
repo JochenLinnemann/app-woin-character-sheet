@@ -1,4 +1,4 @@
-﻿namespace CharacterSheet
+﻿namespace CharacterSheet.App
 {
     public partial class MainPage : ContentPage
     {

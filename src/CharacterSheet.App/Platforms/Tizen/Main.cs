@@ -2,7 +2,7 @@ using Microsoft.Maui;
 using Microsoft.Maui.Hosting;
 using System;
 
-namespace CharacterSheet
+namespace CharacterSheet.App
 {
     internal class Program : MauiApplication
     {

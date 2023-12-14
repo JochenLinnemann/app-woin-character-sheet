@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace CharacterSheet
+namespace CharacterSheet.App
 {
     [Register("AppDelegate")]
     public class AppDelegate : MauiUIApplicationDelegate

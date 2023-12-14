@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace CharacterSheet
+namespace CharacterSheet.App
 {
     public class Program
     {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace CharacterSheet
+namespace CharacterSheet.App
 {
     public static class MauiProgram
     {
