@@ -1,0 +1,17 @@
+﻿@inherits ComponentBase
+@using WoinRules
+
+<h3>Character View</h3>
+
+<ul class="flex flex-row gap-1">
+    @foreach (var attr in Character.Attributes)
+    {
+        <li>
+            <AttributeView Attribute="@attr"></AttributeView>
+        </li>
+    }
+</ul>
+
+@code {
+    [Parameter] public Character Character { get; set; } = null!;
+}

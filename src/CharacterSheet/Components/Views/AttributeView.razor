@@ -1,0 +1,12 @@
+﻿@using WoinRules;
+@using Attribute = WoinRules.Attribute
+
+<div class="border rounded px-1 w-16">
+    <div class="p-1 text-lg text-center">@Attribute.Value</div>
+    <div class="border-t border-b text-sm text-center font-bold">@Attribute.ShortName</div>
+    <div class="p-1 text-lg text-center">@(Attribute.DicePoolSize)d6</div>
+</div>
+
+@code {
+    [Parameter] public Attribute Attribute { get; set; } = null!;
+}
