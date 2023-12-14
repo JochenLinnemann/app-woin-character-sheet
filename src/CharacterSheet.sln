@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WoinRules", "WoinRules\Woin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WoinRules.Tests", "WoinRules.Tests\WoinRules.Tests.csproj", "{49B7D5B6-F727-496A-BE3E-2056F6875F83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterSheet.Web", "CharacterSheet.Web\CharacterSheet.Web.csproj", "{89CA1FC7-7ED7-4D4F-A020-10B1F8C051BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharacterSheet.Web", "CharacterSheet.Web\CharacterSheet.Web.csproj", "{89CA1FC7-7ED7-4D4F-A020-10B1F8C051BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterSheet.Lib", "CharacterSheet.Lib\CharacterSheet.Lib.csproj", "{309144ED-F34B-4AEB-83C7-B9A1E9FB4570}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{89CA1FC7-7ED7-4D4F-A020-10B1F8C051BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89CA1FC7-7ED7-4D4F-A020-10B1F8C051BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89CA1FC7-7ED7-4D4F-A020-10B1F8C051BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{309144ED-F34B-4AEB-83C7-B9A1E9FB4570}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{309144ED-F34B-4AEB-83C7-B9A1E9FB4570}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{309144ED-F34B-4AEB-83C7-B9A1E9FB4570}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{309144ED-F34B-4AEB-83C7-B9A1E9FB4570}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
