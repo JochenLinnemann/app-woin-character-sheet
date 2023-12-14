@@ -3,12 +3,15 @@
 
 <h3>Character View</h3>
 
-@foreach (var attr in Character.Attributes)
-{
-    <AttributeView Attribute="@attr"></AttributeView>
-}
+<ul class="flex flex-row gap-1">
+    @foreach (var attr in Character.Attributes)
+    {
+        <li>
+            <AttributeView Attribute="@attr"></AttributeView>
+        </li>
+    }
+</ul>
 
 @code {
-    [Parameter]
-    public Character Character { get; set; }
+    [Parameter] public Character Character { get; set; } = null!;
 }
