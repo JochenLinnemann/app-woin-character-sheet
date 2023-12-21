@@ -507,6 +507,24 @@ video {
 .w-12 {
   width: 3rem;
 }
+.w-full {
+  width: 100%;
+}
+.w-8 {
+  width: 2rem;
+}
+.cursor-\[url\(svg\/dice\.svg\)\2c pointer\] {
+  cursor: url(svg/dice.svg),pointer;
+}
+.cursor-\[url\(\.\.\/_content\/svg\/dice\.svg\)\2c pointer\] {
+  cursor: url(../_content/svg/dice.svg),pointer;
+}
+.cursor-\[url\(\.\.\/_content\/CharacterSheet\.Lib\/svg\/dice\.svg\)\2c pointer\] {
+  cursor: url(../_content/CharacterSheet.Lib/svg/dice.svg),pointer;
+}
+.cursor-default {
+  cursor: default;
+}
 .flex-row {
   flex-direction: row;
 }
@@ -525,6 +543,10 @@ video {
 .border-t {
   border-top-width: 1px;
 }
+.border-gray-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(107 114 128 / var(--tw-border-opacity));
+}
 .bg-gray-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(107 114 128 / var(--tw-bg-opacity));
@@ -539,9 +561,23 @@ video {
 .p-4 {
   padding: 1rem;
 }
+.p-0 {
+  padding: 0px;
+}
+.p-0\.5 {
+  padding: 0.125rem;
+}
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
+}
+.px-0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.px-0\.5 {
+  padding-left: 0.125rem;
+  padding-right: 0.125rem;
 }
 .text-center {
   text-align: center;

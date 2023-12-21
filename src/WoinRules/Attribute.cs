@@ -34,4 +34,21 @@ public class Attribute
     /// </summary>
     /// <value>The value.</value>
     public int Value { get; set; }
+
+    /// <summary>
+    ///     Rolls the dice.
+    /// </summary>
+    /// <returns>DiceRoll.</returns>
+    public DiceRoll RollDice()
+    {
+        var dice = new int[DicePoolSize];
+        var total = 0;
+        for (var i = 0; i < DicePoolSize; i++)
+        {
+            dice[i] = Random.Shared.Next(1, 6);
+            total += dice[i];
+        }
+
+        return new DiceRoll { Sub = dice, Total = total };
+    }
 }

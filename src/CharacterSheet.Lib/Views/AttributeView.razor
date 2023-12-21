@@ -1,12 +1,30 @@
 ﻿@using WoinRules;
 @using Attribute = WoinRules.Attribute
 
-<div class="border rounded px-1 w-12">
-    <div class="p-1 text-sm text-center">@Attribute.Value</div>
-    <div class="border-t border-b text-xs text-center font-bold">@Attribute.ShortName</div>
-    <div class="p-1 text-sm text-center">@(Attribute.DicePoolSize)d6</div>
+<div class="border border-gray-500 rounded px-0.5 w-12">
+    <div class="p-0.5 text-sm text-center">
+        <input class="w-8 text-center bg-gray-100" type="text" pattern="0|[1-9][0-9]?" @bind-value="Attribute.Value" />
+    </div>
+    <div class="border-t border-b border-gray-500 text-xs text-center font-bold cursor-default">@Attribute.ShortName</div>
+    <div class="p-0.5 text-sm text-center cursor-[url(../_content/CharacterSheet.Lib/svg/dice.svg),pointer]" @onclick="RollDice">@(Attribute.DicePoolSize)d6</div>
 </div>
 
 @code {
     [Parameter] public Attribute Attribute { get; set; } = null!;
+
+    private void RollDice()
+    {
+        var result = Attribute.RollDice();
+        Console.WriteLine(result);
+    }
+
+    private void ChangeAttributeValue(KeyboardEventArgs args)
+    {
+        Console.WriteLine(args.Key);
+    }
+
+    private void ChangeAttributeValue2(ChangeEventArgs args)
+    {
+        Console.WriteLine(args.Value);
+    }
 }
