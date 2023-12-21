@@ -69,7 +69,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CharacterSheet.Web\CharacterSheet.Web.csproj" />
     <ProjectReference Include="..\WoinRules\WoinRules.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Components\Views\" />
   </ItemGroup>
 
 </Project>
