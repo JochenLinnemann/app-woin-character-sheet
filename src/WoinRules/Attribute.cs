@@ -45,7 +45,7 @@ public class Attribute
         var total = 0;
         for (var i = 0; i < DicePoolSize; i++)
         {
-            dice[i] = Random.Shared.Next(1, 6);
+            dice[i] = Random.Shared.Next(6) + 1;
             total += dice[i];
         }
 
