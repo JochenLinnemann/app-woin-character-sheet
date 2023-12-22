@@ -22,6 +22,14 @@
         </Section>
 
         <Section Title="Skills">
+            <ul class="flex flex-col">
+                @foreach (var skill in Character.Skills)
+                {
+                    <li>
+                        <SkillView Skill="@skill"></SkillView>
+                    </li>
+                }
+            </ul>
         </Section>
 
         <Section Title="Attacks">

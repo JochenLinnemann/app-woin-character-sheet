@@ -13,5 +13,14 @@
 </div>
 
 @code {
-    private readonly Character _character = new Character(EraOfPlay.Archaic);
+    private readonly Character _character = new Character(EraOfPlay.Archaic)
+    {
+        Name= "Test Character",
+        Descriptor = "Test Descriptor",
+        Skills =
+        {
+            new Skill { Name= "dodging", Value = 2 },
+            new Skill { Name= "swords", Value = 4 },
+        }
+    };
 }

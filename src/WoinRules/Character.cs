@@ -24,4 +24,10 @@ public class Character(EraOfPlay era)
     /// </summary>
     /// <value>The name.</value>
     public string Name { get; set; } = string.Empty;
+
+    /// <summary>
+    ///     Gets the skills.
+    /// </summary>
+    /// <value>The skills.</value>
+    public List<Skill> Skills { get; } = [];
 }
