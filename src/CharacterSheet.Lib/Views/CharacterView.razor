@@ -1,14 +1,44 @@
 ﻿@inherits ComponentBase
 @using WoinRules
 
-<ul class="flex flex-row gap-1">
-    @foreach (var attr in Character.Attributes)
-    {
-        <li>
-            <AttributeView Attribute="@attr"></AttributeView>
-        </li>
-    }
-</ul>
+<div class="border-b border-gray-500">
+    Name: @Character.Name
+</div>
+<div class="border-b border-gray-500">
+    Descriptor: @Character.Descriptor
+</div>
+
+<div class="flex flex-row gap-2">
+    <div class="flex flex-col">
+        <Section Title="Attributes">
+            <ul class="flex flex-row gap-1">
+                @foreach (var attr in Character.Attributes)
+                {
+                    <li>
+                        <AttributeView Attribute="@attr"></AttributeView>
+                    </li>
+                }
+            </ul>
+        </Section>
+
+        <Section Title="Skills">
+        </Section>
+
+        <Section Title="Attacks">
+        </Section>
+
+        <Section Title="Exploits">
+        </Section>
+    </div>
+
+    <div class="flex flex-col grow">
+        <Section Title="Careers">
+        </Section>
+
+        <Section Title="Gear">
+        </Section>
+    </div>
+</div>
 
 @code {
     [Parameter] public Character Character { get; set; } = null!;

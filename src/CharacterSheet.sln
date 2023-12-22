@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WoinRules.Tests", "WoinRule
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharacterSheet.Web", "CharacterSheet.Web\CharacterSheet.Web.csproj", "{89CA1FC7-7ED7-4D4F-A020-10B1F8C051BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterSheet.Lib", "CharacterSheet.Lib\CharacterSheet.Lib.csproj", "{309144ED-F34B-4AEB-83C7-B9A1E9FB4570}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharacterSheet.Lib", "CharacterSheet.Lib\CharacterSheet.Lib.csproj", "{309144ED-F34B-4AEB-83C7-B9A1E9FB4570}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

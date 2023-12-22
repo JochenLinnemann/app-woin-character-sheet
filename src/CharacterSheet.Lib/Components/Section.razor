@@ -1,0 +1,12 @@
+﻿<div class="my-1">
+    <h3 class="bg-gray-300 my-1 py-0.5 text-center font-bold text-sm rounded">@Title</h3>
+    @ChildContent
+</div>
+
+@code {
+    [Parameter]
+    public required string Title { get; set; }
+
+    [Parameter]
+    public RenderFragment? ChildContent { get; set; }
+}

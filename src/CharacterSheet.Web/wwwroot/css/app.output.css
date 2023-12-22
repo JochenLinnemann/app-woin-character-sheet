@@ -492,32 +492,33 @@ video {
 .m-auto {
   margin: auto;
 }
+.my-1 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+.mt-1 {
+  margin-top: 0.25rem;
+}
 .flex {
   display: flex;
 }
 .h-\[297mm\] {
   height: 297mm;
 }
-.w-16 {
-  width: 4rem;
-}
-.w-\[210mm\] {
-  width: 210mm;
-}
 .w-12 {
   width: 3rem;
-}
-.w-full {
-  width: 100%;
 }
 .w-8 {
   width: 2rem;
 }
-.cursor-\[url\(svg\/dice\.svg\)\2c pointer\] {
-  cursor: url(svg/dice.svg),pointer;
+.w-\[210mm\] {
+  width: 210mm;
 }
-.cursor-\[url\(\.\.\/_content\/svg\/dice\.svg\)\2c pointer\] {
-  cursor: url(../_content/svg/dice.svg),pointer;
+.grow {
+  flex-grow: 1;
 }
 .cursor-\[url\(\.\.\/_content\/CharacterSheet\.Lib\/svg\/dice\.svg\)\2c pointer\] {
   cursor: url(../_content/CharacterSheet.Lib/svg/dice.svg),pointer;
@@ -528,8 +529,14 @@ video {
 .flex-row {
   flex-direction: row;
 }
+.flex-col {
+  flex-direction: column;
+}
 .gap-1 {
   gap: 0.25rem;
+}
+.gap-2 {
+  gap: 0.5rem;
 }
 .rounded {
   border-radius: 0.25rem;
@@ -547,19 +554,17 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(107 114 128 / var(--tw-border-opacity));
 }
-.bg-gray-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
-}
 .bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
-.p-1 {
-  padding: 0.25rem;
+.bg-gray-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
 }
-.p-4 {
-  padding: 1rem;
+.bg-gray-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
 }
 .p-0 {
   padding: 0px;
@@ -567,9 +572,8 @@ video {
 .p-0\.5 {
   padding: 0.125rem;
 }
-.px-1 {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
+.p-4 {
+  padding: 1rem;
 }
 .px-0 {
   padding-left: 0px;
@@ -579,12 +583,20 @@ video {
   padding-left: 0.125rem;
   padding-right: 0.125rem;
 }
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.py-0\.5 {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+}
 .text-center {
   text-align: center;
-}
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 .text-sm {
   font-size: 0.875rem;
@@ -600,4 +612,7 @@ video {
 }
 .font-bold {
   font-weight: 700;
+}
+.capitalize {
+  text-transform: capitalize;
 }
