@@ -21,16 +21,31 @@
             </ul>
         </Section>
 
-        <Section Title="Skills">
-            <ul class="flex flex-col">
-                @foreach (var skill in Character.Skills)
-                {
-                    <li>
-                        <SkillView Skill="@skill"></SkillView>
-                    </li>
-                }
-            </ul>
-        </Section>
+        <div class="flex flex-row gap-2">
+            <div class="flex-grow">
+                <Section Title="Skills">
+                    <ul class="flex flex-col">
+                        @foreach (var skill in Character.Skills)
+                        {
+                            <li>
+                                <SkillView Skill="@skill"></SkillView>
+                            </li>
+                        }
+                    </ul>
+                </Section>
+            </div>
+
+            <div class="flex-grow">
+                <Section Title="Derived Statistics">
+                    <span>Health</span>
+                    <span>Speed</span>
+                    <span>Jump</span>
+                    <span>Carry</span>
+                    <span>Initiative</span>
+                    <span>Defenses</span>
+                </Section>
+            </div>
+        </div>
 
         <Section Title="Attacks">
         </Section>
