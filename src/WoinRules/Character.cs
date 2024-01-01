@@ -14,6 +14,12 @@ public class Character(EraOfPlay era)
     public Attribute[] Attributes { get; } = AttributeFactory.CreateAttributes(era);
 
     /// <summary>
+    ///     Gets the careers.
+    /// </summary>
+    /// <value>The careers.</value>
+    public List<Career> Careers { get; } = [];
+
+    /// <summary>
     ///     Gets or sets the descriptor.
     /// </summary>
     /// <value>The descriptor.</value>
