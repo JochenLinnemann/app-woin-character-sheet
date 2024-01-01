@@ -1,11 +1,11 @@
 ﻿@using WoinRules;
 @using Attribute = WoinRules.Attribute
 
-<div class="border border-gray-500 rounded px-0.5 w-12">
+<div class="border border-gray-400 rounded px-0.5 w-12">
     <div class="p-0.5 text-sm text-center">
         <input class="w-8 text-center bg-gray-100" type="text" pattern="0|[1-9][0-9]?" @bind-value="Attribute.Value" />
     </div>
-    <div class="text-xs font-bold text-center border-t border-b border-gray-500 cursor-default" title="@Attribute.Name">@Attribute.ShortName</div>
+    <div class="text-xs font-bold text-center border-t border-b border-gray-400 cursor-default" title="@Attribute.Name">@Attribute.ShortName</div>
     <div class="p-0.5 text-sm text-center cursor-[url(../_content/CharacterSheet.Lib/svg/dice.svg),pointer]" @onclick="RollDice">@(Attribute.DicePoolSize)d6</div>
 </div>
 
