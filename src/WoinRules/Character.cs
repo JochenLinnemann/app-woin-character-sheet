@@ -1,4 +1,6 @@
-﻿namespace WoinRules;
+﻿using WoinRules.Careers;
+
+namespace WoinRules;
 
 /// <summary>
 ///     Class Character.

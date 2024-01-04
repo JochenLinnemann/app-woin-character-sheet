@@ -1,0 +1,207 @@
+[
+  {
+    "name": "Acolyte",
+    "years": "2d6+6",
+    "description": "A childhood spent in a monastery taught you well for a life of piety.",
+    "prerequisites": [],
+    "attributeAdjustments": [ "INT+1", "WIL+1", "CHA+1", "LUC+1" ],
+    "skillChoices": [
+      "[artistic]",
+      "[magical]",
+      "herbalism",
+      "intuition",
+      "linguistics",
+      "meditation",
+      "medicine",
+      "religion"
+    ],
+    "exploitChoices": [
+      {
+        "name": "Daily Worship",
+        "description": "Once per day, you may pray to your deity and refresh your LUCK (or “faith” as you view it) dice pool."
+      }
+    ]
+  },
+  {
+    "name": "Apprentice",
+    "years": "2d6+6",
+    "description": "You learned valuable skills as a child, apprenticed to a smith or craftsman.",
+    "prerequisites": [],
+    "attributeAdjustments": [ "AGI+1", "INT+1", "LOG+1", "REP+1" ],
+    "skillChoices": [ "[crafting]", "[artistic]", "animal handling", "appraisal" ],
+    "exploitChoices": [
+      {
+        "name": "Quick Learner",
+        "description": "You are able to pick up skills quickly. Skills (but not attributes) cost you one less XP to acquire or advance than they normally would."
+      }
+    ]
+  },
+  {
+    "name": "Bastard",
+    "years": "2d6+6",
+    "description": "You were brought up by a family, but you never really belonged and had to learn to fit in.",
+    "prerequisites": [],
+    "attributeAdjustments": [ "INT+1", "WIL+1", "CHA+2" ],
+    "skillChoices": [ "[social]", "insight", "heraldry", "law", "history" ],
+    "exploitChoices": [
+      {
+        "name": "Adaptable",
+        "description": "You find it easy to fit in with others, adapting to their ways. When part of a group making a group attribute check, you gain a bonus +1d6 to the check."
+      }
+    ]
+  },
+  {
+    "name": "Chosen One",
+    "years": "3d6",
+    "description": "There was always something special about you. You are prophesied, with a destiny greater than yourself.",
+    "prerequisites": [],
+    "attributeAdjustments": [ "INT+1", "CHA+1", "LUC+2" ],
+    "skillChoices": [ "[artistic]", "[developmental]", "[physical]", "history", "religion" ],
+    "exploitChoices": [
+      {
+        "name": "Here for a Reason",
+        "description": "Once (and only once) when you would normally die, you instead wake up one day later with full HEALTH. The gods—or some other power—still have need of you."
+      }
+    ]
+  },
+  {
+    "name": "Commoner",
+    "years": "2d6+6",
+    "description": "Just a small-town kid, living in a small-time world.",
+    "prerequisites": [],
+    "attributeAdjustments": [ "AGI+1", "INT+1", "CHA+1", "LUC+1" ],
+    "skillChoices": [ "[crafting]", "local knowledge", "[hobby]", "carousing" ],
+    "exploitChoices": [
+      {
+        "name": "Practical",
+        "description": "You gain three [crafting] or [hobby] skills of your choice at one rank; this does not increase an existing skill higher than one rank."
+      }
+    ]
+  },
+  {
+    "name": "Farmhand",
+    "years": "2d6+6",
+    "description": "You grew up on a farm, learning about crops and livestock.",
+    "prerequisites": [],
+    "attributeAdjustments": [ "STR+1", "END+1", "LUC+2" ],
+    "skillChoices": [ "animal handling", "farming", "fishing", "herbalism", "nature", "survival" ],
+    "exploitChoices": [
+      {
+        "name": "Outdoorsman",
+        "description": "You recognise plants, and are able to identify them and their properties by sight."
+      }
+    ]
+  },
+  {
+    "name": "Feral",
+    "years": "2d6+6",
+    "description": "You grew up alone in the wild, your only friends the animals who surrounded you.",
+    "prerequisites": [],
+    "attributeAdjustments": [ "STR+1", "END+1", "INT+1", "WIL+1" ],
+    "skillChoices": [ "[outdoor]", "[physical]" ],
+    "exploitChoices": [
+      {
+        "name": "King of the Wild",
+        "description": " Choose a terrain such as jungle, desert, or arctic. You are able to communicate with semi-sentient creatures (animals) from that terrain type, although this does not guarantee their friendship or grant them particular knowledge or intelligence."
+      }
+    ]
+  },
+  {
+    "name": "Noble",
+    "years": "2d6+6",
+    "description": "You had a privileged upbringing surrounded by luxury.",
+    "prerequisites": [],
+    "attributeAdjustments": [ "LOG+1", "CHA+1", "LUC+1", "REP+1" ],
+    "skillChoices": [ "[artistic]", "[gaming]", "carousing", "linguistics", "[performance]", "religion", "swords" ],
+    "exploitChoices": [
+      {
+        "name": "Silver Spoon",
+        "description": "Your wealthy upbringing means that you start play with 1,000 bonus gold coins and a superior quality set of clothing."
+      }
+    ]
+  },
+  {
+    "name": "Nomad",
+    "years": "2d6+6",
+    "description": "Traveling is your way of life, never staying still too long.",
+    "prerequisites": [],
+    "attributeAdjustments": [ "INT+1", "END+2", "WIL+1" ],
+    "skillChoices": [ "[developmental]", "astronomy", "navigation", "running", "tracking", "survival" ],
+    "exploitChoices": [
+      {
+        "name": "Wanderer",
+        "description": "When traveling, you (and your party) automatically gain +1 to your travel score at the start of each day."
+      }
+    ]
+  },
+  {
+    "name": "Page",
+    "years": "2d6+6",
+    "description": "You spent years in the service of a lord or lady, learning the ways of court, running messages, cleaning, and serving a noble.",
+    "prerequisites": [],
+    "attributeAdjustments": [ "AGI+1, INT+1, CHA+1, REP+1" ],
+    "skillChoices": [ "[artistic]", "[gaming]", "heraldry", "history", "linguistics", "[performance]", "running", "riding" ],
+    "exploitChoices": [
+      {
+        "name": "Page Gear",
+        "description": "You start play with a superior set of clothing and a high-quality musical instrument."
+      }
+    ]
+  },
+  {
+    "name": "Primitive",
+    "years": "2d6+6",
+    "description": "You grew up in a tribe that knew little of civilization.",
+    "prerequisites": [],
+    "attributeAdjustments": [ "STR+1", "AGI+1", "END+1", "INT+1" ],
+    "skillChoices": [ "[outdoor]", "herbalism" ],
+    "exploitChoices": [
+      {
+        "name": "Fleet",
+        "description": "You gain +2 to your Speed when outdoors in a non-urban environment. This does not stack with other exploits that add to your Speed."
+      }
+    ]
+  },
+  {
+    "name": "Slave",
+    "years": "2d6+6",
+    "description": "A lifetime of forced servitude and labor has toughened you mentally and physically.",
+    "prerequisites": [],
+    "attributeAdjustments": [ "END+2", "INT+1", "WIL+1" ],
+    "skillChoices": [ "[crafting]", "animal handling", "farming", "mining", "[performance]" ],
+    "exploitChoices": [
+      {
+        "name": "Hardship",
+        "description": "A life of oppression has taught you to endure hardship; you gain an extra death/dying countdown die when reduced below 0 HEALTH."
+      }
+    ]
+  },
+  {
+    "name": "Urchin",
+    "years": "2d6+6",
+    "description": "A rough childhood on the streets taught you how to survive.",
+    "prerequisites": [],
+    "attributeAdjustments": [ "AGI+1", "INT+1", "END+1", "LUC+1" ],
+    "skillChoices": [ "perception", "[performance]", "running", "stealth", "survival", "thievery" ],
+    "exploitChoices": [
+      {
+        "name": "Life on the Streets",
+        "description": "Accustomed to sleeping rough, you heal a bonus 1d6 HEALTH each day."
+      }
+    ]
+  },
+  {
+    "name": "Wizard’s Apprentice",
+    "years": "2d6+6",
+    "description": "Your childhood was an academic one of study and lore.",
+    "prerequisites": [],
+    "attributeAdjustments": [ "INT+1", "LOG+1", "MAG+1", "REP+1" ],
+    "skillChoices": [ "[artistic]", "[lore]", "[magical]", "hypnotism", "prestidigitation" ],
+    "exploitChoices": [
+      {
+        "name": "Legerdemain",
+        "description": "You have learned a number of little magical tricks that you’ve used to help with your chores as an apprentice. You are able to use small displays of magical sleight of hand at will to assist you with day-to-day inconveniences: cleaning clothes, keeping the rain or mud off, a tiny reading light, polishing silverware, and the like."
+      }
+    ]
+  }
+]

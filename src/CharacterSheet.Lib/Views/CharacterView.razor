@@ -1,5 +1,6 @@
 ﻿@inherits ComponentBase
 @using WoinRules
+@using WoinRules.Careers
 
 <div class="border-b border-gray-500">
     Name: @Character.Name
@@ -65,4 +66,10 @@
 
 @code {
     [Parameter] public Character Character { get; set; } = null!;
+
+    protected override void OnInitialized()
+    {
+        var origins = Career.LoadOrigins(EraOfPlay.Archaic);
+    }
+
 }

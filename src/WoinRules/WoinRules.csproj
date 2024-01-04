@@ -7,9 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Update="Careers\fantasy.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    <None Remove="Careers\fantasy-origins.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Careers\fantasy-origins.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
 
 </Project>
