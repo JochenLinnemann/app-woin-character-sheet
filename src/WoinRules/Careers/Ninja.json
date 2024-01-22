@@ -1,0 +1,93 @@
+{
+    "name": "Ninja",
+    "years": "1d6",
+    "description": "You trained in a ninja clan, and learned the power of shadows.",
+    "prerequisites": [
+        "must not have left this career, except to take grades in the shinobi career, or assassin (hitogoroshi), burglar (g\u014dt\u014d), and herbalist (kanp\u014d-i)."
+    ],
+    "attributes": [
+        "AGI +1",
+        "END +1",
+        "INT +1",
+        "WIL +1 or CHI +1"
+    ],
+    "skillChoices": [
+        "swords",
+        "knives",
+        "reactions",
+        "meditation",
+        "[physical]",
+        "[subterfuge]",
+        "martial arts"
+    ],
+    "exploits": [
+        {
+            "name": "Darksight",
+            "description": "You can see in darkness as though it were normal light."
+        },
+        {
+            "name": "Natural Climber",
+            "description": "You gain a Climb speed equal to your regular Speed.",
+            "requirements": [
+                "climbing 3"
+            ]
+        },
+        {
+            "name": "Ninjutsu Master",
+            "description": "Your base unarmed damage increases to 2d6. If it is already 2d6 or higher, you gain no benefit from this exploit.",
+            "requirements": [
+                "martial arts 3"
+            ]
+        },
+        {
+            "name": "No Misstep",
+            "description": "Your stealth skills are legendary. You always reroll 1s when making an AGI check to hide.",
+            "requirements": [
+                "stealth"
+            ]
+        },
+        {
+            "name": "Physical Skill Base",
+            "description": "You gain the following skills at one rank: stealth, climbing, acrobatics, martial arts. This does not increase an existing skill beyond 1 rank."
+        },
+        {
+            "name": "Shadow Step",
+            "description": "You are able to step from one shadow to another, using an action to teleport up to 30' when in darkness. This action requires expenditure of one LUC die.",
+            "requirements": [
+                "Walk Unseen"
+            ]
+        },
+        {
+            "name": "Shuriken Flurry",
+            "description": "You may spend all your actions to throw a flurry of 6 shuriken at your target (only one attack roll is needed). On a successful hit, the target becomes Confused.",
+            "requirements": [
+                "knives"
+            ]
+        },
+        {
+            "name": "Vanish Before the Blade",
+            "description": "As a reaction, when an attacker is about to strike you, you become invisible. If the attack misses you, you move half your Speed. You remain invisible until the start of your next turn.",
+            "requirements": [
+                "Walk Unseen"
+            ]
+        },
+        {
+            "name": "Walk Unseen",
+            "description": "Once per day you can spend an action to become invisible for up to one minute.",
+            "requirements": [
+                "No Misstep"
+            ]
+        },
+        {
+            "name": "Water Walk",
+            "description": "Once per day, you may walk on water as though it were solid ground for up to 1 minute."
+        },
+        {
+            "name": "Water Walk, Greater",
+            "description": "You may walk on water at any time as though it were solid ground.",
+            "requirements": [
+                "Water Walk"
+            ]
+        }
+    ]
+}

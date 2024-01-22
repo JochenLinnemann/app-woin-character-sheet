@@ -1,0 +1,46 @@
+{
+    "name": "Herbalist",
+    "years": "1d6",
+    "description": "An herbalist knows how to gather, store, prepare, and administer herbs and herbal concoctions which have a wide variety of effects. An expert herbalist can, merely from gathering resources found in nature, create ointments and mixtures which protect, heal, or ward.",
+    "prerequisites": [
+        "INT 4+"
+    ],
+    "attributes": [
+        "LOG +1",
+        "INT +1",
+        "WIL +1",
+        "LUC +1"
+    ],
+    "skillChoices": [
+        "cooking",
+        "brewing",
+        "herbalism",
+        "nature",
+        "perception",
+        "gardening",
+        "healing",
+        "survival"
+    ],
+    "exploits": [
+        {
+            "name": "Healing herbs",
+            "description": "As long as you have your herbalism kit on you, you can heal an ally by 1d6 of HEALTH as a single action. No creature can benefit from this healing more than once per day."
+        },
+        {
+            "name": "Alleviate condition",
+            "description": "You can automatically devise an herbal concoction to remove any condition instantly (Dazed, Blinded, and so on) by mixing the herbs you have on you and adding additional components from your surroundings as long as you have your herbalism kit on you. This takes two actions (a full turn) and removes any condition automatically."
+        },
+        {
+            "name": "Herbal ward",
+            "description": "You can create a herbal abjuration effect (equal to a 0 MP spell) at-will. It takes you one minute to prepare the herbs, and they remain usable for five minutes. Choose one creature type; any time a creature of that type attempts to come within 10' of you (or the recipient of your herbs), it is subject to a LOG vs. MENTAL DEFENSE attack. On a success, it may not come any closer for five minutes, at which point it may try again. The duration of the effect is 30 minutes."
+        },
+        {
+            "name": "Stimulant",
+            "description": "You can create a herbal mixture which increases the die pool of one attribute by 1d6 for five minutes. You must choose the attribute when you select this exploit; you may select it multiple times and choose a different attribute each time. It takes one minute to create the mixture."
+        },
+        {
+            "name": "Depressant",
+            "description": "You can create a herbal mixture which decreases the die pool of one attribute by 1d6 for five minutes. You must choose the attribute when you select this exploit; you may select it multiple times and choose a different attribute each time. It takes one minute to create the mixture."
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "name": "Minstrel",
+    "years": "1d6",
+    "description": "You used the power of your music to earn a living.",
+    "prerequisites": [
+        "CHA 4+"
+    ],
+    "attributes": [
+        "INT +1",
+        "WIL +1",
+        "CHA +1",
+        "REP +1"
+    ],
+    "skillChoices": [
+        "carousing",
+        "[performance skills]",
+        "[lore]",
+        "[social]"
+    ],
+    "exploits": [
+        {
+            "name": "Instrument",
+            "description": "You start play with a high quality musical instrument. You can make money by playing at taverns and doing local performances. You can automatically make 1d6 x 10 gc per day by doing this. This ability cannot be used during downtime."
+        },
+        {
+            "name": "Song",
+            "description": "You can take this exploit multiple times, learning a new song each time. Your songs affect sentient beings who can hear and understand them. Each time you learn a song, choose one condition; that song allows you to inflict or remove that condition (e.g. Song of Cheer, Song of Courage, or Song of Tiredness). Unwilling targets require a CHA vs. MENTAL DEFENSE attack.",
+            "requirements": [
+                "Instrument"
+            ]
+        },
+        {
+            "name": "Beastsong",
+            "description": "Select a song that you know. That song will now affect beasts.",
+            "requirements": [
+                "Song"
+            ]
+        },
+        {
+            "name": "Projection",
+            "description": "You use the power of your voice to increase the radius of your songs to 60'.",
+            "requirements": [
+                "Song"
+            ]
+        }
+    ]
+}

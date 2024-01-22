@@ -1,0 +1,51 @@
+{
+    "name": "Knight",
+    "years": "1d6",
+    "description": "You became a knight \u2013 a mounted warrior proficient in lance, shield, and sword.",
+    "prerequisites": [
+        "heraldry"
+    ],
+    "attributes": [
+        "STR +1",
+        "CHA +1",
+        "LUC +1",
+        "REP +1"
+    ],
+    "skillChoices": [
+        "lances",
+        "swords",
+        "heraldry",
+        "animal handling",
+        "riding",
+        "bravery",
+        "leadership",
+        "tactics",
+        "carousing",
+        "law"
+    ],
+    "exploits": [
+        {
+            "name": "Bonded mount",
+            "description": "You gain a loyal warhorse. The warhorse is bonded to you, and gains +2 SPEED while you are riding it. If the warhorse dies, you can replace it after a week of mourning."
+        },
+        {
+            "name": "Jouster",
+            "description": "You can charge an enemy from horseback using your lance. This attack gains +2d6 to both attack and damage, and requires you to move on horseback at least 20' in a straight line."
+        },
+        {
+            "name": "Jumper",
+            "description": "Your horse's free JUMP distance increases by 5' horizontally, and 5' vertically."
+        },
+        {
+            "name": "Honorable",
+            "description": "Your courage and honor are such that you are immune to the Afraid condition."
+        },
+        {
+            "name": "Squire",
+            "description": "You gain a free squire. You must protect your squire; in exchange, one weapon or one suit of armor you possess increases by one quality level (to a maximum of artisan). If your squire dies, he is replaced in one month.",
+            "requirements": [
+                "Bonded Mount"
+            ]
+        }
+    ]
+}

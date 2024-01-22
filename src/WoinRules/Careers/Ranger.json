@@ -1,0 +1,60 @@
+{
+    "name": "Ranger",
+    "years": "1d6",
+    "description": "Woodsman and hunter, you are a master of the outdoors. The ranger is the quintessential outdoorsman.",
+    "prerequisites": [
+        "WIL 3+"
+    ],
+    "attributes": [
+        "AGI +1",
+        "INT +1",
+        "END +1",
+        "WIL +1"
+    ],
+    "skillChoices": [
+        "[outdoor]",
+        "herbalism",
+        "local knowledge",
+        "swords",
+        "bows",
+        "climbing",
+        "swimming",
+        "running",
+        "stealth",
+        "navigation",
+        "tracking"
+    ],
+    "exploits": [
+        {
+            "name": "Companion",
+            "description": "You gain an animal companion, much like the druid's. This companion will accompany and defend you. If your companion dies, you attract a new companion in one month. However, if you abuse your companion (for example by sending it ahead to set off traps), it will leave you and you will never be able to replace the companion."
+        },
+        {
+            "name": "Beastmaster",
+            "description": "You gain a second animal companion. You can repeat this exploit, gaining a new companion each time you take it.",
+            "requirements": [
+                "Companion"
+            ]
+        },
+        {
+            "name": "Nature's secrets",
+            "description": "You learn the secret of plants and the secret of beasts."
+        },
+        {
+            "name": "Traveller",
+            "description": "You are skilled at wilderness travel, at home under the open sky. You increase the travel increment of a group you lead by one day. You may take this exploit multiple times, increasing the travel increment by one day each time."
+        },
+        {
+            "name": "Wilderness stride",
+            "description": "You are not affected by difficult terrain caused by plants or undergrowth."
+        },
+        {
+            "name": "Nature's camouflage",
+            "description": "You can camouflage yourself to become effectively invisible at a distance of 30' or greater. You may only move at half SPEED while camouflaged, and any attack ends the effect for anybody within sight."
+        },
+        {
+            "name": "Beast whisperer",
+            "description": "You can speak to animals. This does not grant them special knowledge or intelligence, so the information you can gain is limited by their own capabilities. Neither does it guarantee friendship or cooperation."
+        }
+    ]
+}

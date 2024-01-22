@@ -1,0 +1,63 @@
+{
+    "name": "Loremaster",
+    "years": "1d6",
+    "description": "A loremaster is a scholar and academic expert; years spent in libraries studying ancient texts makes loremasters amongst the most knowledgeable in the world. Loremasters even pick up some minor magical spells which help them in their studies.",
+    "prerequisites": [
+        "INT 4+"
+    ],
+    "attributes": [
+        "LOG +2",
+        "WIL +1",
+        "MAG +1"
+    ],
+    "skillChoices": [
+        "[Artistic]",
+        "[lore]",
+        "[gaming]",
+        "[magical]"
+    ],
+    "exploits": [
+        {
+            "name": "Secrets",
+            "description": "You learn four secrets."
+        },
+        {
+            "name": "Experienced",
+            "description": "Your knowledge and expertise borders on the prophetic. Your entire party gains a +1d6 INITIATIVE bonus if they are within 30 feet of you when they make their check."
+        },
+        {
+            "name": "Identify",
+            "description": "You can automatically identify a magical item, its name, and its properties."
+        },
+        {
+            "name": "Language lore",
+            "description": "You gain the scholastic ability to speak or read any unknown language with a Difficult [16] INT check."
+        },
+        {
+            "name": "Language mastery",
+            "description": "You can now speak or read any unknown language automatically.",
+            "requirements": [
+                "Language Lore"
+            ]
+        },
+        {
+            "name": "Anatomist",
+            "description": "You automatically know the resistances and vulnerabilities of any creature you encounter."
+        },
+        {
+            "name": "Wise counsel",
+            "description": "You can spend two actions to offer advice and counsel, giving one ally within 30' a +2d6 bonus to a single attribute check. Any given target can only benefit from this once per day."
+        },
+        {
+            "name": "Ritual",
+            "description": "You can cast a specific spell of 3 MP or less as a ritual; this takes one minute per MP, but costs no MP. Devise one spell and note it down. You may take this exploit more than once, creating a new ritual each time."
+        },
+        {
+            "name": "Greater ritual",
+            "description": "You can now cast spells of up to 5 MP or less as a ritual.",
+            "requirements": [
+                "Ritual"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "name": "Diabolist",
+    "years": "1d6",
+    "description": "A diabolist consorts with the infernal, and dabbles in the darkest and most dangerous of magical arts \u2013 he deals with demons and devils, risking his very soul in the process. A diabolist needs a strong will, for devils and demons know the powers of temptation, deceit, and the lure of pure evil. A diabolist knows how to summon infernal creatures and bind them to his will.",
+    "prerequisites": [
+        "religion",
+        "secret of evil"
+    ],
+    "attributes": [
+        "WIL +1",
+        "CHA +1",
+        "LUC +1",
+        "MAG +1"
+    ],
+    "skillChoices": [
+        "[magical]",
+        "religion",
+        "alchemy",
+        "concentration",
+        "[social]",
+        "linguistics",
+        "knives",
+        "law"
+    ],
+    "exploits": [
+        {
+            "name": "Blood magic",
+            "description": "You are now able to cast spells for fewer MP by spilling your own blood. As an action, you may do either 1d6 or 2d6 damage to yourself; the MP cost of the next spell cast within one minute is reduced by the number of d6s damage you cause.",
+            "requirements": [
+                "Faustian Pact"
+            ]
+        },
+        {
+            "name": "Demonic traits",
+            "description": "You begin to take on the appearance of the infernal. You may take this exploit up to six times. Each time you take it, roll 1d6 to determine the trait you gain; if a trait is duplicated, roll again.\nYou begin to take on the appearance of the infernal. You may take this exploit up to six times. Each time you take it, roll 1d6 to determine the trait you gain; if a trait is duplicated, roll again.\n\n1. Horns. +1d6 Magic Points\n2. Red eyes. Darkvision 60'\n3. Claws. +1d6 to unarmed damage\n4. Red skin. SOAK 5 (fire)\n5. Hooves. +1 SPEED\n6. Tail. +1 AGILITY",
+            "requirements": [
+                "Faustian Pact"
+            ]
+        },
+        {
+            "name": "Faustian pact",
+            "description": "Your Faustian pact begins; but power comes at a price. You gain 2d6 additional Magic Points. Whenever you cast a spell, you take damage equal to the number of MP placed in that spell. However, you know that true power comes later to those who are patient."
+        },
+        {
+            "name": "Infernal mysteries",
+            "description": "You learn the basics of diabolism. You gain the summoning, abjuration, and hexing skills at 1 rank (1d6) if you do not already have them, and learn the secret of demons."
+        },
+        {
+            "name": "Imp",
+            "description": "You gain an imp familiar which will do your bidding. It will undertake dangerous tasks, but to persuade it to do something suicidal (or near-so) requires a Difficult [16] CHA check; if you fail, your imp betrays you."
+        }
+    ]
+}

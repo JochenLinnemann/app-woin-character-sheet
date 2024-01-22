@@ -1,0 +1,31 @@
+{
+    "name": "Prisoner",
+    "years": "2d6",
+    "description": "Your life of crime ended you up in prison where you served time; or perhaps you were a political prisoner or a prisoner-of-war. It was a tough environment and you spent most of your time just trying to survive, although you did make one or two lifelong contacts.",
+    "prerequisites": [
+        "none"
+    ],
+    "attributes": [
+        "STR +1",
+        "END +1",
+        "INT +1",
+        "REP +1"
+    ],
+    "skillChoices": [
+        "intimidation",
+        "survival",
+        "[subterfuge]",
+        "[unarmed fighting]",
+        "knives"
+    ],
+    "exploits": [
+        {
+            "name": "Prison tough",
+            "description": "You are mentally and physically toughened. Each time you take this exploit you gain a permanent +1 bonus to your DEFENSE and MENTAL DEFENSE. You may repeat this exploit."
+        },
+        {
+            "name": "Shiv",
+            "description": "You are easily able to improvise weapons using your surroundings \u2013 glasses, rocks, and so on. You always count as carrying a knife or club. Additionally, you know how to use it: when you do piercing damage with a small knife, you may spend a LUC die to automatically inflict the Bleeding condition."
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "name": "Assassin",
+    "years": "1d6",
+    "description": "A killer for hire, you mastered the skills of assassination.",
+    "prerequisites": [
+        "stealth"
+    ],
+    "attributes": [
+        "AGI +1",
+        "INT +1",
+        "WIL +1",
+        "REP +1"
+    ],
+    "skillChoices": [
+        "stealth",
+        "thievery",
+        "perception",
+        "intimidate",
+        "disguise",
+        "[melee weapon]",
+        "[ranged weapon]",
+        "herbalism"
+    ],
+    "exploits": [
+        {
+            "name": "Surprise attack",
+            "description": "If you successfully hit a target before it becomes aware of you, you gain a +2d6 damage bonus."
+        },
+        {
+            "name": "Death blow",
+            "description": "Your damage bonus for attacking unaware targets increases to +4d6.",
+            "requirements": [
+                "Surprise Attack"
+            ]
+        },
+        {
+            "name": "Poison resistance",
+            "description": "You become resistant to poisons, gaining SOAK 5 poison and an additional die in your countdown die pool when poisoned."
+        },
+        {
+            "name": "Quiet kill",
+            "description": "You are a master of silent death. Any target you kill during the ambush turn dies silently and without obvious visible signs. Nobody will notice that the target is dead for one minute, and will require a Strenuous [21] INT check to realize it thereafter."
+        },
+        {
+            "name": "Weak point",
+            "description": "Once per enemy you may ignore any SOAK score it possesses by targeting a weak spot. You can never use this ability on the same enemy again."
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "name": "Shaman",
+    "years": "1d6",
+    "description": "You have attuned yourself to a spiritual realm that most people neither notice nor interact with.",
+    "prerequisites": [
+        "nature"
+    ],
+    "attributes": [
+        "INT +1",
+        "END +1",
+        "WIL +1",
+        "MAG +1"
+    ],
+    "skillChoices": [
+        "[outdoors]",
+        "[magic]",
+        "religion"
+    ],
+    "exploits": [
+        {
+            "name": "Ghost Warrior",
+            "description": "You can touch\u2014and harm\u2014incorporeal creatures such as spirits as though they were corporeal."
+        },
+        {
+            "name": "Speak with Spirits",
+            "description": "You can see and speak to spirits. There are a surprising number of spirits inhabiting the world, and you can always find one to talk to. Once per day, you can cause a spirit to truthfully answer one yes-or-no question."
+        },
+        {
+            "name": "Spirit Animal",
+            "description": "Choose an animal with a maximum dice pool equal to yours or lower. That is your spirit animal. You are able to invoke the abilities of that animal: spend two actions and gain one of that animal\u2019s attribute scores or skills for one minute. You can take this exploit multiple times, getting a new spirit animal each time; the new one is in addition to your existing animal(s)."
+        },
+        {
+            "name": "Spiritual Energy",
+            "description": "You gain energy from your companion spirits, who provide you with power to cast spells. Once per day you may cast a spell you would normally be able to cast, but you do not expend the MP needed to do so."
+        },
+        {
+            "name": "Spirit Ward",
+            "description": "You create a 30' diameter circle that spirits and other incorporeal creatures cannot enter. This circle stays in place until you create a new circle. You may only create one circle per day."
+        }
+    ]
+}

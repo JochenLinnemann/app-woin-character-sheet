@@ -1,0 +1,73 @@
+{
+    "name": "Firemage",
+    "years": "1d6",
+    "description": "Firemages are fascinated by fire. They love the way it flickers and dances; they excel at creating flames, throwing fire, and delight in creating and controlling infernos and conflagrations. Firemages can sometimes be identified by a slight sent of sulfur.",
+    "prerequisites": [
+        "secret of fire"
+    ],
+    "attributes": [
+        "MAG +1",
+        "AGI +1",
+        "CHA +1",
+        "LOG +1"
+    ],
+    "skillChoices": [
+        "[magical]",
+        "[lore]",
+        "[crafting]",
+        "bluffing",
+        "perception",
+        "reactions",
+        "knives"
+    ],
+    "exploits": [
+        {
+            "name": "Fiery affinity",
+            "description": "Your focus on fire grants you +1d6 to any attribute which interacts with fire or heat."
+        },
+        {
+            "name": "Firebolt",
+            "description": "You can throw a bolt of fire as a single ranged attack (using your MAG attribute) which has a range increment of 30' and does 2d6 fire damage.",
+            "requirements": [
+                "Flaming Touch"
+            ]
+        },
+        {
+            "name": "Firebolt, greater",
+            "description": "Your Firebolt's damage increases to 3d6 fire.",
+            "requirements": [
+                "Firebolt"
+            ]
+        },
+        {
+            "name": "Fire immunity",
+            "description": "You become completely immune to fire or heat damage. Your vulnerability to cold, however, increases to 2d6.",
+            "requirements": [
+                "Fire Resistance"
+            ]
+        },
+        {
+            "name": "Fire resistance",
+            "description": "You permanently gain SOAK 5 (fire). However, you also suffer Vulnerability (1d6) to cold."
+        },
+        {
+            "name": "Firesculptor",
+            "description": "You can 'sculpt' fire easily; any non-magical flame within 30' can be shaped or enlarged as a single action and a mere effort of will as long as it remains within 30' (things outside can catch fire as normal, but you have no control over them)."
+        },
+        {
+            "name": "Flaming aura",
+            "description": "You gain an aura (based on your size as normal) of flame and heat, although you may suppress it easily. Creatures entering or starting a turn in this aura take 2d6 fire damage.",
+            "requirements": [
+                "Flaming Touch"
+            ]
+        },
+        {
+            "name": "Flaming touch",
+            "description": "Your touch becomes hot enough to injure others, causing an additional 1d6 of heat damage beyond your natural damage."
+        },
+        {
+            "name": "Sticky fire",
+            "description": "Every time you damage a foe with fire, they gain the Burning condition."
+        }
+    ]
+}

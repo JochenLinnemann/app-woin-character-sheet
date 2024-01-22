@@ -1,0 +1,61 @@
+{
+    "name": "Pirate",
+    "years": "1d6",
+    "description": "A scourge of the high seas, you plunder for loot and fame.",
+    "prerequisites": [
+        "sailing"
+    ],
+    "attributes": [
+        "AGI +1",
+        "INT +1",
+        "LUC +1",
+        "REP +1"
+    ],
+    "skillChoices": [
+        "sailing",
+        "navigation",
+        "climbing",
+        "swimming",
+        "carousing",
+        "swords",
+        "knives",
+        "crossbows",
+        "leadership",
+        "appraisal",
+        "thievery",
+        "law"
+    ],
+    "exploits": [
+        {
+            "name": "Crows nest",
+            "description": "You have spent many hours on the lookout. You can always access the ambush turn."
+        },
+        {
+            "name": "Hook",
+            "description": "One of your hands is now a hook. You are always considered to be carrying a knife. You also gain a bonus +1 REP."
+        },
+        {
+            "name": "Keelhauled",
+            "description": "You've been keelhauled or felt the lash of the cat at least once. You gain SOAK 2."
+        },
+        {
+            "name": "Rigging",
+            "description": "You do not suffer penalties for fighting while climbing."
+        },
+        {
+            "name": "Fearsome reputation",
+            "description": "Your reputation precedes you. With a REP vs. MENTAL DEFENSE attack you can intimidate a single target within 30'. If successful, the target becomes Afraid."
+        },
+        {
+            "name": "Polly",
+            "description": "You gain a small bird (crow, parrot, owl, etc.) as an animal companion. See the druid career for information on animal companions."
+        },
+        {
+            "name": "Fierce reputation",
+            "description": "Your reputation is now so fierce that you can either make the target severely Afraid, or all targets within 30' Afraid with a REP vs. MENTAL DEFENSE attack.",
+            "requirements": [
+                "Fearsome Reputation"
+            ]
+        }
+    ]
+}

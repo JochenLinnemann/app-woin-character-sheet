@@ -1,0 +1,51 @@
+{
+    "name": "Enchanter",
+    "years": "1d6",
+    "description": "A master of the mind, you seek to expand your influence and control over others.",
+    "prerequisites": [
+        "enchantment 6+",
+        "CHA 10+"
+    ],
+    "attributes": [
+        "INT +1",
+        "WIL +1",
+        "CHA +1",
+        "MAG +1"
+    ],
+    "skillChoices": [
+        "enchantment",
+        "compulsion",
+        "[social]",
+        "hypnotism"
+    ],
+    "exploits": [
+        {
+            "name": "Deceiver",
+            "description": "You are an expert at deception. You gain +1d6 to any attempt to verbally deceive another."
+        },
+        {
+            "name": "Extended Enchantments",
+            "description": "Your charm or enchantment spells cannot be shaken off until the spell duration expires."
+        },
+        {
+            "name": "Mental Resistance",
+            "description": "You gain +4 Mental Defense."
+        },
+        {
+            "name": "Mind Reader",
+            "description": "You are able to read the minds of those with 10' of you, immediately knowing when they are not speaking the truth."
+        },
+        {
+            "name": "Mind Trick",
+            "description": "You can impose your will on others. Make a MAG mental attack against a target within 30\u2019; that target will perform one non-harmful action of your choosing."
+        },
+        {
+            "name": "Natural Control",
+            "description": "You are able to manipulate the minds of others easily. With a wave and a word you can move somebody who can hear and understand you one stage along a WIL status track with a successful CHA mental attack."
+        },
+        {
+            "name": "Telepathy",
+            "description": "You are able to freely send telepathic messages to those you have spent at least 8 hours with, as long as you can see them."
+        }
+    ]
+}

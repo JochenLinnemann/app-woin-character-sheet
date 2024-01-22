@@ -1,0 +1,46 @@
+{
+    "name": "Soothsayer",
+    "years": "1d6",
+    "description": "You make a living using some form of divination, whether astrology, palmistry, or tasseography; or perhaps you even speak with the dead.",
+    "prerequisites": [
+        "divination",
+        "astrology"
+    ],
+    "attributes": [
+        "INT +1",
+        "CHA +1",
+        "MAG +1",
+        "LUC +1"
+    ],
+    "skillChoices": [
+        "divination",
+        "astrology",
+        "insight",
+        "gambling",
+        "fortune-telling",
+        "bluffing",
+        "religion"
+    ],
+    "exploits": [
+        {
+            "name": "Cold Reading",
+            "description": "You are adept at reading the faces and body language of others, as well as other clues, signals, and even simple probabilities. You can ask somebody a question, and get a truthful answer (even if verbally they say the opposite) with a CHA mental attack."
+        },
+        {
+            "name": "Reading the Signs",
+            "description": "Choose a fortune-telling method, whether it be astrology, palmistry, casting bones, or anything else you choose. Once per day you may use this method to find one piece of information. Ask the GM a question; the GM will answer it truthfully, although may do so cryptically."
+        },
+        {
+            "name": "Speak with Dead",
+            "description": "You may speak to corpses and ask them questions. This does not compel them to answer, or grant them knowledge they wouldn\u2019t already have, but they can answer questions about their lives, things they witnessed while alive, or the manner of the death. They have no knowledge of events that transpired after their death."
+        },
+        {
+            "name": "See the Future",
+            "description": "Once per day you may roll an attribute check and, after seeing the result, decide whether or not to take that action."
+        },
+        {
+            "name": "There Is No Fate",
+            "description": "You can see the moment of your death, and take steps to avoid it. Once, if an attack would reduce you to zero HEALTH, you may ignore that attack and the damage it caused. Once you have used this exploit, you cannot use it again."
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "name": "Shinobi",
+    "years": "1d6",
+    "description": "Your ninja training specialized in disguise and infiltration.",
+    "prerequisites": [
+        "must not have left this career, except for grades in the ninja career."
+    ],
+    "attributes": [
+        "AGI +1",
+        "CHA +1",
+        "INT +1",
+        "WIL +1"
+    ],
+    "skillChoices": [
+        "swords",
+        "knives",
+        "reactions",
+        "meditation",
+        "[subterfuge]",
+        "martial arts",
+        "herbalism"
+    ],
+    "exploits": [
+        {
+            "name": "Facechanger",
+            "description": "Once per day you may change your face to exactly resemble somebody else. This takes two actions and lasts for up to one hour.",
+            "requirements": [
+                "Perfect Disguise"
+            ]
+        },
+        {
+            "name": "Infiltration Skill Base",
+            "description": "You gain the following skills at 1 rank: disguise, stealth, thievery, escape artist. This does not increase an existing skill above 1 rank."
+        },
+        {
+            "name": "Perfect Disguise",
+            "description": "As long as you concentrate (requires one action per round) your disguise fools any but close family members.",
+            "requirements": [
+                "disguise"
+            ]
+        },
+        {
+            "name": "Poison Immunity",
+            "description": "Your resistance to poisons increases. You become immune to poison damage.",
+            "requirements": [
+                "Poisoner"
+            ]
+        },
+        {
+            "name": "Poisoned Weapon",
+            "description": "You can spend an hour per day creating 1d6 doses of poison which can be applied to a ninja-to or a shuriken. The poison, on a successful hit which does damage, continues to cause 1d6 poison damage per round for 1d6 rounds. Applying the poison takes two actions, and it lasts for five minutes once applied. If not used, poison doses become inert after 24 hours.",
+            "requirements": [
+                "Poisoner"
+            ]
+        },
+        {
+            "name": "Poisoner",
+            "description": "You are an expert at poison use, and gain 5 SOAK (poison)."
+        },
+        {
+            "name": "Water Breathing",
+            "description": "You can breathe underwater as though it were normal air."
+        }
+    ]
+}

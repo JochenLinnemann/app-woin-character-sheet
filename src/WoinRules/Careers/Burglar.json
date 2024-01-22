@@ -1,0 +1,49 @@
+{
+    "name": "Burglar",
+    "years": "1d6",
+    "description": "You become a master thief, able to infiltrate the most secure of locations. Some cat burglars work for hire and conduct industrial espionage, while others prefer to steal valuable artifacts and jewels from museums and high security vaults.",
+    "prerequisites": [
+        "stealth"
+    ],
+    "attributes": [
+        "AGI +1",
+        "INT +1",
+        "LUC +1",
+        "REP +1"
+    ],
+    "skillChoices": [
+        "climbing",
+        "jumping",
+        "acrobatics",
+        "escape artist",
+        "computers",
+        "stealth",
+        "thievery",
+        "appraisal"
+    ],
+    "exploits": [
+        {
+            "name": "Locksmith",
+            "description": "You gain a exceptional quality lockpicking kit. You gain a +1d6 bonus to attempts to pick locks, combinations, guess passwords, or access security panels."
+        },
+        {
+            "name": "Catburglar",
+            "description": "An expert at climbing, you do not take any die penalties in combat while climbing."
+        },
+        {
+            "name": "Sixth sense",
+            "description": "You have a sixth sense when it comes to traps, and gain a +2d6 bonus to spot them and a +1d6 bonus to avoid or disarm them."
+        },
+        {
+            "name": "Climber",
+            "description": "Your climbing speed becomes equal to your regular SPEED.",
+            "requirements": [
+                "Catburglar"
+            ]
+        },
+        {
+            "name": "Grand heist",
+            "description": "You achieve a great robbery that will be remembered for years to come. Gain a bonus 3d6 x 100gc. You may repeat this exploit, gaining 3d6x100gc each time."
+        }
+    ]
+}

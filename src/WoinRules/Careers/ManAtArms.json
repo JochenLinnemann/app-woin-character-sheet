@@ -1,0 +1,48 @@
+{
+    "name": "Man-at-Arms",
+    "years": "1d6",
+    "description": "An infantryman, you fought in battle on the front lines.",
+    "prerequisites": [
+        "None"
+    ],
+    "attributes": [
+        "STR +1",
+        "END +1",
+        "WIL +1",
+        "LUC +1"
+    ],
+    "skillChoices": [
+        "spears",
+        "swords",
+        "[unarmed fighting]",
+        "carrying",
+        "running",
+        "leadership",
+        "tactics",
+        "carousing",
+        "survival",
+        "healing"
+    ],
+    "exploits": [
+        {
+            "name": "Equipped",
+            "description": "You start play with a high quality sword, spear, or suit of chainmail."
+        },
+        {
+            "name": "Hold the line",
+            "description": "When standing adjacent to an ally, you both gain a 1d6 cover bonus."
+        },
+        {
+            "name": "Advance!",
+            "description": "Proficient at charging across poor terrain or mud, you ignore terrain when charging."
+        },
+        {
+            "name": "Shield-bearer",
+            "description": "Any shield you wear increases its DEFENSE bonus by +4."
+        },
+        {
+            "name": "Shield wall",
+            "description": "When standing between two allies, all three gain a +2d6 cover bonus. This does not stack with itself or with Hold the Line."
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "name": "Mage",
+    "years": "1d6",
+    "description": "You are practiced in the arcane arts, able to wield spells with ease. A mage is a trained magic-user \u2013 sometimes known as a wizard, or sorcerer. Able to cast a variety of spells, and well-versed in a range of lore, the mage is a generalist.",
+    "prerequisites": [
+        "one [magical] skill"
+    ],
+    "attributes": [
+        "MAG +1",
+        "LOG +1",
+        "WIL +1",
+        "REP +1"
+    ],
+    "skillChoices": [
+        "[magical]",
+        "[lore]",
+        "[academic]",
+        "staves"
+    ],
+    "exploits": [
+        {
+            "name": "Broad knowledge base",
+            "description": "Choose two more [magical] skills and two elemental or creature secrets. You gain these two skills at 1 rank (1d6). This does not increase the rank of an existing skill.",
+            "requirements": [
+                "Arcane Knowledge Base"
+            ]
+        },
+        {
+            "name": "Arcane knowledge base",
+            "description": "Choose four [magical] skills and one element secret. You gain these four skills at 1 rank (1d6). This does not increase the rank of an existing skill."
+        },
+        {
+            "name": "Arcane secret",
+            "description": "You have learned or discovered an arcane secret - either an element, creature type, or virtue. You can take this exploit multiple times, learning a new secret each time, but you may know no more secrets than your LOG attribute."
+        },
+        {
+            "name": "Attuned",
+            "description": "You are able to detect magic easily. You do not need to make any kind of attribute check to detect magic within 30', and are aware of its existence automatically."
+        },
+        {
+            "name": "Familiar",
+            "description": "You gain a familiar, which is a tiny-sized creature (cat, bat, owl, mouse, rat, etc.) You can speak to your familiar, which is able to report back things it has seen or heard."
+        },
+        {
+            "name": "Learned",
+            "description": "When using any [lore] skill as part of a dice pool, you may reroll any 1s."
+        },
+        {
+            "name": "Specialization",
+            "description": "Choose one secret that you already know. You are specialized in that secret. You may exceed your MAG attribute by 2 points when using that secret. You may only ever specialize in one secret.",
+            "requirements": [
+                "Arcane Knowledge Base"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "name": "Gladiator",
+    "years": "1d6",
+    "description": "You fought in an arena for money and fame with a flashy combat style and a few dirty tricks.",
+    "prerequisites": [
+        "None"
+    ],
+    "attributes": [
+        "AGI +1",
+        "END +1",
+        "REP +1",
+        "CHA +1"
+    ],
+    "skillChoices": [
+        "[combat]",
+        "reactions",
+        "storytelling",
+        "intimidation",
+        "dancing",
+        "acrobatics"
+    ],
+    "exploits": [
+        {
+            "name": "Gladiator's skills",
+            "description": "You gain two of the following universal exploits: Disarm, Trip, Achilles Heel, Blinding Attack, Crippling Strike, Quickstand, Taunt. You may repeat this exploit to gain two more from the list."
+        },
+        {
+            "name": "Showman",
+            "description": "You can make a CHA vs. MENTAL DEFENSE attack in combat against a single target within 30' as a standard action to put on an intimidating and flashy display of prowess. If successful, the target is becomes Afraid."
+        },
+        {
+            "name": "Exhibitionist",
+            "description": "Onlookers give you strength. If there are 6 or more non-participating people watching you fight, you replenish your LUCK pool by 1 die every time you defeat an opponent."
+        },
+        {
+            "name": "Crowd's worship",
+            "description": "You feed off the admiration of a crowd to the extent that if there are 6 or more non-participating people watching you fight, every time you defeat a foe, you gain 2d6 HEALTH as you bask in glory.",
+            "requirements": [
+                "Exhibitionist"
+            ]
+        },
+        {
+            "name": "Gladiator's cut",
+            "description": "Your successful strikes give the target the Bleeding condition."
+        },
+        {
+            "name": "Unusual weapon",
+            "description": "Choose one of the following weapons: trident, net, spear. Weapons of that type count as one quality level higher when you use them."
+        },
+        {
+            "name": "Signature move",
+            "description": "Choose one exploit that you have learned from the Gladiator's Skills list. This becomes your signature move. You gain a permanent +1d6 when using that move.",
+            "requirements": [
+                "Gladiator's Skills"
+            ]
+        },
+        {
+            "name": "Fake wounds",
+            "description": "Once per day, you may use your expertise in faking injuries to turn an actual blow into a pretend one. Your opponent, and all onlookers, will believe you have suffered the damage inflicted by the attack, but in fact it causes no damage at all."
+        },
+        {
+            "name": "Surprise recovery",
+            "description": "After using your Fake Wounds ability, you may make a single free melee attack at any point up until you make an actual regular melee attack. The free attack must be your first melee attack since using the Fake Wounds ability.",
+            "requirements": [
+                "Fake Wounds"
+            ]
+        }
+    ]
+}

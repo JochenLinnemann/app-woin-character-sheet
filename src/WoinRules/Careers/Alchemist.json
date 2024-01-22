@@ -1,0 +1,43 @@
+{
+    "name": "Alchemist",
+    "years": "1d6",
+    "description": "Alchemists mix potions and substances, and transforms substances from one to another. Creating elixirs of life in bubbling cauldrons and seeking the secrets of magical chemistry, alchemists are true creators. Many make a living selling their concoctions. Unlike herbalism, alchemy involves a touch of magic.\r\nFor each alchemical concoction, you should roll and note down an Alchemical Science result. This describes the nature of the concoction, whether it requires you to dilute amber in a jade keg, or cool mercury in a ruby flute.",
+    "prerequisites": ["herbalism", "alchemy"],
+    "attributes": ["LOG+1", "END+1", "MAG+1", "REP+1"],
+    "skillChoices": [
+        "cooking", "brewing", "alchemy", "concentration", "healing", "animal handling"
+    ],
+    "exploits": [{
+            "name": "Explosive alchemy",
+            "description": "You can create an explosive concoction using your alchemy kit. This takes a full round (two actions), and the concoction can be thrown (range increment 3, radius 5', damage 3d6 fire). The concoction can only be stored for 5 minutes before it stops working."
+        },
+		{
+			"name": "Healing potion",
+			"description": "You can use your alchemy kit to heal 2d6 HEALTH in yourself or any creature you can touch. No creature may benefit from this more than once per day."
+		},
+		{
+			"name": "Gaseous concoction (requires Concoction, alchemy 5)",
+			"description": "Your concoction can be thrown in a glass bottle which breaks on inpact, causing a 10' radius area of gas."
+		},
+		{
+			"name": "Greater healing potion (requires Healing Potion, alchemy 3)",
+			"description": "Your healing ability using your alchemy kit improves. You may now restore 3d6 HEALTH."
+		},
+		{
+			"name": "Concoction",
+			"description": "Choose one condition. You can spend five minutes to create a concoction which, when drunk (and a MAG vs. the appropriate DEFENSE attack is made), gives the target that condition. You may take this exploit multiple times, choosing a new condition each time."
+		},
+		{
+			"name": "Strong concoction (requires Concoction, alchemy 3)",
+			"description": "One concoction you can create using the Concoction exploit now gives the target the severe stage of the condition."
+		},
+		{
+			"name": "Sticky concoction (requires Concoction, alchemy 3)",
+			"description": "You may turn your concoction into a substance which can be delivered via a blade or an arrow. Apply an already-created concoction to an edged weapon. The next successful damaging attack made by that weapon will deliver the concoction to the target as though it had drunk it. This only lasts for one successful attack or for five minutes, whichever comes first."
+		},
+		{
+			"name": "Protective oil",
+			"description": "You may spend 5 minutes to create a an oil which, when smeared over a creature, grants it SOAK 2 against one damage type. This is enough to protect against climate-based effects."
+		}
+    ]
+}

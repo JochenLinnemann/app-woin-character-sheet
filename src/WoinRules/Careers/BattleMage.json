@@ -1,0 +1,49 @@
+{
+    "name": "Battle Mage",
+    "years": "1d6",
+    "description": "You trained for the battlefield, learning to fight alongside soldiers on the field of war.",
+    "prerequisites": [
+        "MAG 6+",
+        "tactics"
+    ],
+    "attributes": [
+        "LOG +1",
+        "AGI +1",
+        "END +1",
+        "MAG +1"
+    ],
+    "skillChoices": [
+        "tactics",
+        "evocation",
+        "abjuration",
+        "transformation",
+        "staves",
+        "leadership"
+    ],
+    "exploits": [
+        {
+            "name": "Arcane Shield",
+            "description": "You gain SOAK 6 from a permanent arcane shield, which surrounds you while you are awake. This does not stack with other forms of SOAK."
+        },
+        {
+            "name": "Area Specialist",
+            "description": "You are expert at area-of-effect battlefield spells. You pay half the normal MP price for area of effect."
+        },
+        {
+            "name": "Armored Wizard",
+            "description": "You are adept at wearing armor. If you don\u2019t already have it, you gain 6 ranks (3d6) in medium armor. Medium armor which you wear and inscribe with battle runes gains +2 SOAK beyond that which is would ordinarily offer."
+        },
+        {
+            "name": "Artillery",
+            "description": "One role of a battle mage is as artillery support for infantry. You pay half the normal MP price for range."
+        },
+        {
+            "name": "Master of Terrain",
+            "description": "You understand that terrain is an important factor in war. You may make a 30' diameter area within 100' difficult terrain for one minute as a single action."
+        },
+        {
+            "name": "Siege Mage",
+            "description": "Your spells ignore the SOAK of non-organic objects such as walls and doors."
+        }
+    ]
+}

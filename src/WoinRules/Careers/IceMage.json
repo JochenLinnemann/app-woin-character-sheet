@@ -1,0 +1,75 @@
+{
+    "name": "Ice Mage",
+    "years": "1d6",
+    "description": "You mastered the cold, able to manipulate snow and ice, with a demeanor as chilling as your heart.",
+    "prerequisites": [
+        "secret of ice",
+        "evocation"
+    ],
+    "attributes": [
+        "END +1",
+        "LOG +1",
+        "WIL +1",
+        "MAG +1"
+    ],
+    "skillChoices": [
+        "[magical]",
+        "sculpting",
+        "insight",
+        "knives",
+        "hardy"
+    ],
+    "exploits": [
+        {
+            "name": "Chilling Touch",
+            "description": "Your very touch is icy. Your unarmed damage becomes cold damage."
+        },
+        {
+            "name": "Cold Immunity",
+            "description": "You become completely immune to cold damage; you also gain vulnerability 1d6 (fire)."
+        },
+        {
+            "name": "Freeze",
+            "description": "Your Chilling Touch freezes your target, immobilizing them (they can shake this off). The target must be medium-sized or smaller.",
+            "requirements": [
+                "Chilling Touch"
+            ]
+        },
+        {
+            "name": "Freezing Breath",
+            "description": "You can breathe a 15' cone of icy breath, making a ranged MAG attack against all in the area. The breath does 2d6 cold damage."
+        },
+        {
+            "name": "Howling Blizzard",
+            "description": "You create a localized blizzard for one minute, with a diameter of 30' centered on you. Any creature which enters or starts its turn in the blizzard takes 1d6 cold damage. The area becomes difficult terrain. The blizzard moves with you.",
+            "requirements": [
+                "Chilling Touch"
+            ]
+        },
+        {
+            "name": "Ice Javelin",
+            "description": "Your icicles can be thrown, and gain the stats of a javelin which does piercing/ cold damage.",
+            "requirements": [
+                "Icicle"
+            ]
+        },
+        {
+            "name": "Ice Slick",
+            "description": "Touching the ground, you create a 30' diameter slick ice sheet centered on you. You can walk on the sheet normally, but for everybody else it is difficult terrain. Anybody who moves at more than half Speed across the ice must make a Challenging [13] AGI check or fall prone.",
+            "requirements": [
+                "Chilling Touch"
+            ]
+        },
+        {
+            "name": "Icicle",
+            "description": "You can create a sharp icicle in your hand and use it like a knife which does piercing/cold damage. This icicle is a high quality knife. You can take this exploit multiple times, increasing the quality of the knife each time."
+        },
+        {
+            "name": "Icy Skin",
+            "description": "Your very skin becomes cold and hard to touch. You gain natural Soak 10, but now have vulnerability 2d6 (fire) if you didn\u2019t already have it.",
+            "requirements": [
+                "Chilling Touch"
+            ]
+        }
+    ]
+}

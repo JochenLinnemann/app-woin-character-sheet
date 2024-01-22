@@ -1,0 +1,81 @@
+{
+    "name": "Druid",
+    "years": "1d6",
+    "description": "Guardians of nature, druids are attuned with the natural forces of the world. Plants and animals are their allies, and druids frequently live in the wild, deep within forests. A druid typically wields a staff or sickle.",
+    "prerequisites": [
+        "nature"
+    ],
+    "attributes": [
+        "INT +1",
+        "WIL +1",
+        "END +1",
+        "MAG +1"
+    ],
+    "skillChoices": [
+        "[outdoor]",
+        "nature",
+        "healing",
+        "staves",
+        "[crafting]",
+        "herbalism",
+        "[magical]"
+    ],
+    "exploits": [
+        {
+            "name": "Animal affinity",
+            "description": "With a successful CHA vs. MENTAL DEFENSE check, you can give an animal the Charmed condition for one hour.",
+            "requirements": [
+                "Speak With Animals"
+            ]
+        },
+        {
+            "name": "Animal companion",
+            "description": "You gain an animal companion in the form of a wolf. This companion will accompany and defend you. If your companion dies, you attract a new companion in one month. However, if you abuse your companion (for example by sending it ahead to set off traps), it will leave you and you will never be able to replace the companion. The companion is bright for its species, but has no special intelligence or abilities. You may take this exploit multiple times, gaining an extra animal companion each time."
+        },
+        {
+            "name": "Ageless",
+            "description": "You no longer age and become effectively immortal, saving accidental death.",
+            "requirements": [
+                "Poison Immunity"
+            ]
+        },
+        {
+            "name": "Beast form",
+            "description": "You may transform into a small or medium-sized animal (and back again) once per day for up to one hour. You cannot speak in this form, and retain your own mental attributes, but otherwise use the animal's statistics."
+        },
+        {
+            "name": "Companion link",
+            "description": "You gain a telepathic link with your animal companion with a range of 1 mile; this enables you to send it instructions and to see through its eyes.",
+            "requirements": [
+                "Animal Companion"
+            ]
+        },
+        {
+            "name": "Elemental druid",
+            "description": "You gain any two of the secrets of air, earth, fire, and water."
+        },
+        {
+            "name": "Greater beast form",
+            "description": "You may now change into a large or tiny animal.",
+            "requirements": [
+                "Beast form"
+            ]
+        },
+        {
+            "name": "Nature's passage",
+            "description": "You can move through woodland areas and thick undergrowth without any speed reduction, and leave no tracks or traces of your passing unless you choose to do so."
+        },
+        {
+            "name": "Nature priest",
+            "description": "You gain the secret of beasts and the secret of plants."
+        },
+        {
+            "name": "Poison immunity",
+            "description": "You become immune to all poisons and poison damage."
+        },
+        {
+            "name": "Speak with animals",
+            "description": "You may freely speak with animals, although they do not gain special intelligence or knowledge."
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "name": "Illusionist",
+    "years": "1d6",
+    "description": "Your goal is deception. You weave complex illusions designed to baffle or confuse your foes. You are a master of deceit.",
+    "prerequisites": [
+        "illusion 6+"
+    ],
+    "attributes": [
+        "AGI +1",
+        "INT +1",
+        "CHA +1",
+        "MAG +1"
+    ],
+    "skillChoices": [
+        "[artistic]",
+        "perception",
+        "illusion",
+        "divination",
+        "disguise",
+        "stealth",
+        "bluffing",
+        "insight"
+    ],
+    "exploits": [
+        {
+            "name": "Change Self",
+            "description": "You can make superficial changes to your appearance at will: hair color, clothing, facial hair, and so on. You cannot change race or gender, or impersonate a specific person."
+        },
+        {
+            "name": "Illusory Attack",
+            "description": "You make a ranged or melee attack against a target, but it targets their Mental Defense and does psychic damage. You can describe the attack how you wish; it does 2d6 psychic damage. You can take this exploit a second time to increase the damage to 3d6 psychic damage."
+        },
+        {
+            "name": "Illusory Perception",
+            "description": "You can\u2019t fool a fooler. You automatically recognize illusions for what they are."
+        },
+        {
+            "name": "Invisibility",
+            "description": "Once per day you may become invisible for one minute."
+        },
+        {
+            "name": "True Sight",
+            "description": "You automatically see through illusions and disguises, you can see invisible creatures, and you can discern the true shape of a shapechanged creature.",
+            "requirements": [
+                "Illusory Perception"
+            ]
+        }
+    ]
+}

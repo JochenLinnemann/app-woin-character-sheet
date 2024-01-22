@@ -1,0 +1,31 @@
+{
+    "name": "Ruffian",
+    "years": "1d6",
+    "description": "You fell into the fringes of society and ended up as a thug on the street, committing petty crimes for small amounts of money.",
+    "prerequisites": [
+        "none"
+    ],
+    "attributes": [
+        "STR +1",
+        "END +1",
+        "CHA +1",
+        "LUC +1"
+    ],
+    "skillChoices": [
+        "intimidation",
+        "running",
+        "brawling",
+        "clubs",
+        "knives"
+    ],
+    "exploits": [
+        {
+            "name": "The filth!",
+            "description": "You have developed an uncanny ability to detect the Watch. When attempting to sniff out a watchman or similar authority figure, you gain a +1d6 bonus."
+        },
+        {
+            "name": "Street tough",
+            "description": "Life on the streets is tough. You gain a natural +2 SOAK."
+        }
+    ]
+}

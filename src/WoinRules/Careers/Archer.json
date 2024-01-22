@@ -1,0 +1,54 @@
+{
+    "name": "Archer",
+    "years": "1d6",
+    "description": "You joined the army as an archer, manning walls and front lines in times of war.",
+    "prerequisites": [
+        "AGI 3+"
+    ],
+    "attributes": [
+        "STR +1",
+        "AGI +1",
+        "LUC +1",
+        "REP +1"
+    ],
+    "skillChoices": [
+        "bows",
+        "perception",
+        "carousing",
+        "survival"
+    ],
+    "exploits": [
+        {
+            "name": "Long shot",
+            "description": "You have an eye for distance. You can double the range increment of a bow."
+        },
+        {
+            "name": "Bowyer",
+            "description": "You know how to maintain your equipment. One standard quality bow becomes a high quality weapon, as long as you spend an hour maintaining it every day."
+        },
+        {
+            "name": "Careful aim",
+            "description": "When aiming, your bonus to hit increases to +2d6."
+        },
+        {
+            "name": "Rapid shot",
+            "description": "Your rate of fire increases; once per turn you can fire two shots instead of one."
+        },
+        {
+            "name": "Stand your ground",
+            "description": "As long as you do not move, you can plant arrows in the ground and loose two shots every action."
+        },
+        {
+            "name": "Double shot",
+            "description": "You notch two arrows and let both fly simultaneously. Each must be directed at a different target, and both targets must be within 10' of each other. You cannot combine this ability with any other exploits."
+        },
+        {
+            "name": "Intercepting shot",
+            "description": "You can shoot another arrow out of the sky as a reaction. Roll an opposed attack roll against that of the attacker's arrow; if you succeed, the arrow is split and falls harmlessly to the ground.",
+            "requirements": [
+                "INT 8+",
+                "Rapid Shot"
+            ]
+        }
+    ]
+}

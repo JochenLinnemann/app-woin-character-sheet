@@ -1,0 +1,63 @@
+{
+    "name": "Undead Hunter",
+    "years": "1d6",
+    "description": "An expert on the undead, you have vowed to hunt and destroy them. Your academic research and knowledge are powerful weapons against your immortal foes. Many undead hunters choose to learn a little magic, also.",
+    "prerequisites": [
+        "religion"
+    ],
+    "attributes": [
+        "LOG +1",
+        "WIL +1",
+        "CHA +1",
+        "LUC +1"
+    ],
+    "skillChoices": [
+        "religion",
+        "abjuration",
+        "tracking",
+        "history",
+        "herbalism",
+        "linguistics",
+        "medicine"
+    ],
+    "exploits": [
+        {
+            "name": "Death Bane",
+            "description": "Using an herbalism kit, you can create a death bane\u2014an ointment or natural amulet (such as the stereotypical garlic vs. vampires). This grants you +4 DEFENSE vs. the undead."
+        },
+        {
+            "name": "Death Ward",
+            "description": "You learn the secret of undead."
+        },
+        {
+            "name": "Divine Strike",
+            "description": "Your attacks do Good damage to the undead."
+        },
+        {
+            "name": "Lore of the Dead",
+            "description": "You can identify undead creatures by sight and know their weaknesses."
+        },
+        {
+            "name": "Special Enemy",
+            "description": "Choose one type of undead. You become known as a hunter of that type of undead (e.g. a Vampire Hunter), and gain +2 REP. You automatically ignore any natural SOAK that that creature possesses (although not armor SOAK).",
+            "requirements": [
+                "Lore of the Dead"
+            ]
+        },
+        {
+            "name": "Stalwart",
+            "description": "You become immune to fear effects caused by the undead."
+        },
+        {
+            "name": "Stench of Death",
+            "description": "You can sense the presence of the undead within 30'."
+        },
+        {
+            "name": "Turn Undead",
+            "description": "You can make a CHA vs. Mental Defense attack which affects all undead within 30' of you. Undead affected by this attack become Afraid.",
+            "requirements": [
+                "Stalwart"
+            ]
+        }
+    ]
+}

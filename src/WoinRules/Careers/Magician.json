@@ -1,0 +1,65 @@
+{
+    "name": "Magician",
+    "years": "1d6",
+    "description": "A master of magical entertainment, you perform on stage for money.",
+    "prerequisites": [
+        "MAG 1+",
+        "prestidigitation"
+    ],
+    "attributes": [
+        "AGI +1",
+        "CHA +1",
+        "MAG +1",
+        "REP +1"
+    ],
+    "skillChoices": [
+        "prestidigitation",
+        "thievery",
+        "perception",
+        "[performance]",
+        "creation",
+        "displacement",
+        "illusion",
+        "movement",
+        "summoning",
+        "transformation",
+        "hypnotism"
+    ],
+    "exploits": [
+        {
+            "name": "Arrow Catch",
+            "description": "You may catch one small missile fired at you as a reaction. You must be aware of the attack."
+        },
+        {
+            "name": "Card Trick",
+            "description": "When gambling with cards, your dice pools explode. However, if you roll three ones, your cheating methods are exposed."
+        },
+        {
+            "name": "Escape Artist",
+            "description": "Once per day you may automatically escape from any restraints or open a lock."
+        },
+        {
+            "name": "Levitation",
+            "description": "You can levitate, moving at a speed of 20' per round vertically. This does not enable you to move horizontally."
+        },
+        {
+            "name": "Rabbit from a Hat",
+            "description": "Three times per day, you may produce a small object from nowhere, up to a total value of 100 gc per day. Any item you produce in this way disappears after one minute."
+        },
+        {
+            "name": "Rope Trick",
+            "description": "You cause a rope to levitate. You can climb the rope. At the top of the rope is a tiny pocket dimension with room for one person. You may pull the rope up after you. The dimension and effect lasts for up to one hour."
+        },
+        {
+            "name": "Rope Trick, Greater",
+            "description": "As Rope Trick, but you can fit a number of people equal to your LOG attribute in the pocket dimension.",
+            "requirements": [
+                "Rope Trick"
+            ]
+        },
+        {
+            "name": "Vanishing Act",
+            "description": "You can teleport short distances (5' per point of INT) to a location you can see."
+        }
+    ]
+}

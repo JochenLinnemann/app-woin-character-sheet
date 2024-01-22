@@ -1,0 +1,52 @@
+{
+    "name": "Cleric",
+    "years": "1d6",
+    "description": "The cleric devotes his or her life to a higher power, hoping to serve that power\u2019s will. Whether the cleric serves a noble god or a vicious demon lord, he or she gains power from faith, and learns to wield powerful magic in the service of his or her deity. Clerics are also trained to be capable warriors, able to defend themselves physically if their spells fail them. Since clerics deal more in abstract realms of the soul and the spirit, their magic has a definite slant toward the intangible, generally eschewing direct offensive magic in favor of spells that affect creatures\u2019 essence and behavior, or that make creatures more or less able to battle. Most clerics worship one specific deity from a pantheon, but still respect other members of that pantheon, even if they are not actual followers. The agendas of deities\u2019 worshippers may conflict in the realm of mortals, but it is folly to defy even enemy deities. Thus, though a cleric may choose to change the deity he or she reveres, if the clerics truly abandons the pantheon, he or she will never be accepted by any deity, being forced to rely on mortal magic alone.",
+    "prerequisites": [
+        "religion"
+    ],
+    "attributes": [
+        "WIL +1",
+        "LOG +1",
+        "CHA +1",
+        "MAG +1"
+    ],
+    "skillChoices": [
+        "healing",
+        "herbalism",
+        "religion",
+        "leadership",
+        "history",
+        "local knowledge",
+        "staves",
+        "maces",
+        "[magical]"
+    ],
+    "exploits": [
+        {
+            "name": "Beatification",
+            "description": "You gain the Virtue of your god. Additionally, all damage you do is damage of that Virtue type, whatever the delivery instrument.",
+            "requirements": [
+                "religion 6"
+            ]
+        },
+        {
+            "name": "Blessing/curse",
+            "description": "You can issue a blessing or a curse. This takes one minute, lasts one hour, and affects one creature within 30'. A curse makes the target unable to access its LUC pool; a blessing grants it a bonus 3d6 to its LUC pool for the hour.",
+            "requirements": [
+                "Portfolio"
+            ]
+        },
+        {
+            "name": "Portfolio",
+            "description": "Choose either the Good or the Evil virtue. If you choose the good, your touch can heal 1d6 HEALTH as a single action (although any given creature can only benefit from this once per day). If you choose the evil, it inflicts 1d6 evil damage beyond your natural damage. You may never learn the opposite Virtue to the one you chose. You may take this exploit multiple times; each time you do, your healing (or damage) increases by 1d6."
+        },
+        {
+            "name": "Sense virtue",
+            "description": "You are able to sense the presence of (but not the location of) any beings or objects within 60' with a Virtue opposite to that of the secret you chose.",
+            "requirements": [
+                "Portfolio"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "name": "Witch/Warlock",
+    "years": "1d6",
+    "description": "While many believe you dabble in dark arts, you are a practitioner of natural, although somewhat primitive, magic.",
+    "prerequisites": [
+        "none"
+    ],
+    "attributes": [
+        "STR +1",
+        "AGI +1",
+        "WIL +1",
+        "MAG +1"
+    ],
+    "skillChoices": [
+        "hexes",
+        "transformation",
+        "divination",
+        "compulsion",
+        "herbalism",
+        "alchemy",
+        "cooking",
+        "knives"
+    ],
+    "exploits": [
+        {
+            "name": "Backstab",
+            "description": "You leap onto the back of a target (you must be behind the target to do this); on a successful hit, you plunge your dagger repeatedly into the target\u2019s back, doing double damage. If the attack misses, you instead fall to the ground and land prone."
+        },
+        {
+            "name": "Evil Eye",
+            "description": "You make a MAG mental attack at a target within sight. On a success, that target is unable to access its LUC pool for one hour."
+        },
+        {
+            "name": "Maniacal Cackle",
+            "description": "You let loose a deranged cackle that disturbs all who hear it. You make a MAG mental attack against those within 30\u2019; on a hit, targets are made afraid."
+        },
+        {
+            "name": "Raven\u2019s Flight",
+            "description": "Once per day you may transform into a raven, with a Fly speed of 10. You immediately moves that speed. You can only use this ability once per day."
+        },
+        {
+            "name": "Sacrificial Dagger",
+            "description": "When using a knife or dagger, you automatically inflict the Pained condition."
+        },
+        {
+            "name": "Torturous Curses",
+            "description": "You make a MAG mental attack against a creature within 30\u2019, and on a success the target becomes cursed; they can shake off the curse as though it were a regular condition. Each time you take this exploit, choose one of the following curses: Amateur\u2019s Amnesia, Brainless Babbling, Craven Coward, Heartless Hurts, Layabout\u2019s Lethargy, Madman\u2019s Mirth, Practitioners\u2019 Prey."
+        }
+    ]
+}

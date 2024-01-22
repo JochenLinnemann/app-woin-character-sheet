@@ -1,0 +1,47 @@
+{
+    "name": "Watchman",
+    "years": "1d6",
+    "description": "A town guard or local police force, you enforce the law.",
+    "prerequisites": [
+        "None"
+    ],
+    "attributes": [
+        "END +1",
+        "INT +1",
+        "LUC +1",
+        "REP +1"
+    ],
+    "skillChoices": [
+        "swords",
+        "clubs",
+        "perception",
+        "thievery",
+        "interrogation",
+        "tracking",
+        "intimidate",
+        "law",
+        "local knowledge"
+    ],
+    "exploits": [
+        {
+            "name": "Vigilant",
+            "description": "Constantly vigilant, you are hard to surprise. You gain a +1d6 die bonus to access the ambush turn."
+        },
+        {
+            "name": "Chaser",
+            "description": "When chasing someone, your SPEED increases by +2."
+        },
+        {
+            "name": "Clues",
+            "description": "If there are clues to be discovered at the scene of a crime, you automatically find them within 5 minutes."
+        },
+        {
+            "name": "Sap",
+            "description": "You gain a special sap attack, used to knock out and apprehend criminals. You use any weapon; you do no damage, but a successful attack pushes the target along the Alertness status track by one stage for each 5 points of damage you would have done."
+        },
+        {
+            "name": "Troublesense",
+            "description": "You are able to spot trouble before it happens. You gain a +1d6 bonus to INITIATIVE checks."
+        }
+    ]
+}

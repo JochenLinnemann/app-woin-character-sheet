@@ -1,0 +1,101 @@
+{
+    "name": "Barbarian",
+    "years": "1d6",
+    "description": "Tribal warriors from the very fringes of civilization, barbarians are wild and uncouth. Barbarians exemplify physical prowess and natural prowess, but can feel uncomfortable in enclosed spaces.",
+    "prerequisites": [
+        "None"
+    ],
+    "attributes": [
+        "STR +1",
+        "END +1",
+        "AGI +1",
+        "INT +1"
+    ],
+    "skillChoices": [
+        "swords",
+        "axes",
+        "spears",
+        "[physical]",
+        "[outdoor]",
+        "hardy",
+        "herbalism"
+    ],
+    "exploits": [
+        {
+            "name": "Fleet of foot",
+            "description": "In an outdoor environment, you gain a +2 bonus to your SPEED."
+        },
+        {
+            "name": "Mighty leap",
+            "description": "Your horizontal free jump distance increases by 5' (one square)."
+        },
+        {
+            "name": "Set in the old ways",
+            "description": "You gain +5 to your MENTAL DEFENSE."
+        },
+        {
+            "name": "Primal charge",
+            "description": "When charging, you howl and screech, moving twice your SPEED and gaining +2d6 to damage.",
+            "requirements": [
+                "Fleet of Foot"
+            ]
+        },
+        {
+            "name": "Hides & skins",
+            "description": "You know how to make the most out of basic gear. Hide armor worn by a barbarian counts as one quality level higher than it actually is."
+        },
+        {
+            "name": "Leathery skin",
+            "description": "You gain +2 natural SOAK from hard, conditioned, leathery skin."
+        },
+        {
+            "name": "Iron skin",
+            "description": "Your natural SOAK bonus increases to +4.",
+            "requirements": [
+                "Leathery Skin"
+            ]
+        },
+        {
+            "name": "Sacred terrain",
+            "description": "Choose a terrain type, such as forest, plains, ocean, or mountains. When in that terrain, you gain a +1d6 to all dice pools; however, when not in that terrain, you suffer a -1d6 penalty to all dice pools."
+        },
+        {
+            "name": "Beastly visage",
+            "description": "You have modified your body in various ways (scars, tattoos, piercings) as to make yourself as intimidating as possible. With a CHA vs. MENTAL DEFENSE attack, you can give a target within 30' who can see and hear you the Afraid condition."
+        },
+        {
+            "name": "Scarred visage",
+            "description": "You are covered in scars. You are immune to the Bleeding condition.",
+            "requirements": [
+                "Beastly Visage",
+                "Leathery Skin"
+            ]
+        },
+        {
+            "name": "Keen senses",
+            "description": "You gain +1d6 to perception checks."
+        },
+        {
+            "name": "Trophy collection",
+            "description": "You collect gruesome trophies from your vanquished foes \u2013 teeth, skills, bones, etc. Each trophy replenishes one LUCK die in your LUCK dice pool, and loses its power once the LUCK die is spent. You may only claim a trophy if you delivered the killing blow to a creature of Medium size or larger.",
+            "requirements": [
+                "Set In The Old Ways"
+            ]
+        },
+        {
+            "name": "Reap the whirlwind",
+            "description": "You may spend two actions to make one melee attack against every adjacent foe. You cannot add additional exploits to these attacks."
+        },
+        {
+            "name": "Feral",
+            "description": "You gain a bite attack; your natural damage increases by +1d6 and becomes piercing damage."
+        },
+        {
+            "name": "Natural serenity",
+            "description": "In your chosen sacred terrain, you may pause for five minutes once per day, reflecting on nature and speaking to the Old Gods, to recover your full HEALTH.",
+            "requirements": [
+                "Sacred Terrain"
+            ]
+        }
+    ]
+}

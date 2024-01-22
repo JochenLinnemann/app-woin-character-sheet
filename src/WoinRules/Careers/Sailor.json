@@ -1,0 +1,71 @@
+{
+    "name": "Sailor",
+    "years": "1d6",
+    "description": "At home on the sea, you spent time aboard a ship mastering the art of sailing.",
+    "prerequisites": [
+        "None"
+    ],
+    "attributes": [
+        "AGI +1",
+        "INT +1",
+        "LUC +1",
+        "END +1"
+    ],
+    "skillChoices": [
+        "sailing",
+        "navigation",
+        "fishing",
+        "climbing",
+        "swimming",
+        "carousing",
+        "clubs",
+        "knives",
+        "crossbows",
+        "leadership"
+    ],
+    "exploits": [
+        {
+            "name": "Climb the rigging",
+            "description": "You can climb your SPEED instead of half your SPEED."
+        },
+        {
+            "name": "Sea legs",
+            "description": "You adapt to the motion of a ship; this makes you very hard to knock down. When you are knocked prone, you may make a Challenging [13] AGI check; if you succeed, you remain standing."
+        },
+        {
+            "name": "Grog",
+            "description": "While you may well enjoy a drink, you never suffer any penalties from intoxication via alcohol."
+        },
+        {
+            "name": "Swimmer",
+            "description": "You gain a SWIM speed equal to your regular SPEED."
+        },
+        {
+            "name": "Hold breath",
+            "description": "You gain two additional countdown dice when holding your breath.",
+            "requirements": [
+                "Swimmer"
+            ]
+        },
+        {
+            "name": "Sea weather",
+            "description": "You are able to ignore the effects of rain, wind, mist, and fog."
+        },
+        {
+            "name": "Sea shanty",
+            "description": "By singing a sea shanty, a sailor can combat sickness and tiredness. Anyone who hears the shanty is relieved of the Sick or Fatigued condition (the sailor must choose which of the two songs he is singing)."
+        },
+        {
+            "name": "Any port",
+            "description": "You may take this exploit multiple times. Each time you take it, you may designate an additional port town. At that location, you will have one contact upon whom you can (generally) rely, and one tavern at which you can drink for free."
+        },
+        {
+            "name": "Lookout",
+            "description": "Crow's nest duty is a mandatory part of a sailor's life. You gain +1d6 to perception checks."
+        },
+        {
+            "name": "Peg leg",
+            "description": "One of your legs is a wooden peg. You are used to it, so it does not negatively affect you; you gain a kick attack which increases your unarmed damage by 1d6."
+        }
+    ]
+}

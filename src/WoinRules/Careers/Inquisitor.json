@@ -1,0 +1,51 @@
+{
+    "name": "Inquisitor",
+    "years": "1d6",
+    "description": "Inquisitors are magical bodyguards and interrogators skilled in uncovering plots and opposing enemy magic. Inquisitorial magic is subtle in its effects, with few sensory cues, but very distinctive with regard to its caster. Inquisitors learn to use their force of will to intimidate foes, and so they typically growl their spells loudly and gesture clearly at their spell\u2019s targets. They use few directly offensive spells, though many can create flaming barriers for defense or to trap foes. Inquisitors are easily recognized for their masks, which they claim protect their souls from enemy magic. Most Inquisitor masks are wood or stone carved in the shape of bearskulls, and many Inquisitors favor bearskin cloaks. They seldom arm themselves with more than a claw-shaped dagger. Inquisitors learn their spells from copies of old spellbooks, scribed by the founders of the Inquisitorial order centuries ago. These spellbooks are written in a civilized form of Orcish, and are closely protected by the order that owns them. Experienced Inquisitors also usually study the magic of other groups to be better able to counterspell it.",
+    "prerequisites": [
+        "law",
+        "divination"
+    ],
+    "attributes": [
+        "END +1",
+        "INT +1",
+        "WIL +1",
+        "MAG +1"
+    ],
+    "skillChoices": [
+        "religion",
+        "law",
+        "interrogation",
+        "intimidation",
+        "tracking",
+        "divination",
+        "compulsion",
+        "abjuration",
+        "knives"
+    ],
+    "exploits": [
+        {
+            "name": "Dispel magic",
+            "description": "You are able to dispel magic within 30' as a single action by making a MAG vs. MAG check against the effect you are trying to dispel.",
+            "requirements": [
+                "Sense Magic"
+            ]
+        },
+        {
+            "name": "Inquisitor's mask",
+            "description": "You can protect yourself from spells by hiding your soul behind a special mask. You create the mask yourself. While you wear that mask you gain a +4 MENTAL DEFENSE bonus. Also divination spells that directly target you take a -1d6 die penalty. You must make the mask yourself, and it must be specifically designed to protect your soul. You can take this exploit a second time to create a Greater Inquisitor's Mask, which gives you +6 MENTAL DEFENSE and inflicts a -2d6 penalty to divination spells targeting you."
+        },
+        {
+            "name": "Inquisitor's sight",
+            "description": "You gain the secret of humanoids, and gain one rank in the compulsion, divination, and abjuration skills."
+        },
+        {
+            "name": "Magic resistance",
+            "description": "You gain SOAK 5 (magic). This applies to any damage caused directly by magic; it does not apply to indirect damage."
+        },
+        {
+            "name": "Sense magic",
+            "description": "You are able to sniff out magic within 60'."
+        }
+    ]
+}

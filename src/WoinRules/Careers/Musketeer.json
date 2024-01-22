@@ -1,0 +1,48 @@
+{
+    "name": "Musketeer",
+    "years": "1d6",
+    "description": "Wielding musket and sword, you became a swashbuckling musketeer.",
+    "prerequisites": [
+        "AGI or INT 5+"
+    ],
+    "attributes": [
+        "AGI +1",
+        "INT +1",
+        "CHA +1",
+        "LUC +1"
+    ],
+    "skillChoices": [
+        "swords",
+        "muskets",
+        "heraldry",
+        "perception",
+        "intimidate",
+        "carousing"
+    ],
+    "exploits": [
+        {
+            "name": "Cloak flourish",
+            "description": "You can use a cape or cloak with a flourish to distract your foes; the garment counts as a small shield, but does not require a free hand to use it."
+        },
+        {
+            "name": "Musket charge",
+            "description": "When charging with a melee weapon, you may begin your charge with a single musket shot, switch weapons, charge, and end it with a single melee strike."
+        },
+        {
+            "name": "Pistol-whip",
+            "description": "You can use a firearm as a club by striking with the butt once per turn as a free action as long as you are currently wielding only that weapon."
+        },
+        {
+            "name": "Swashbuckler",
+            "description": "Your swashbuckling swordplay gives you any two of the following universal exploits: Disarm, Sidestep, Taunt."
+        },
+        {
+            "name": "Whites of their eyes",
+            "description": "You are accustomed to standing your ground as oncoming hordes charge, firing only when you see the whites of their eyes. When charged by an opponent, you may fire a free musket or pistol shot when they come within 10' of you."
+        },
+        {
+            "name": "Quick reload",
+            "description": "You can fire your musket every action, rather than just once per turn."
+        }
+    ]
+}

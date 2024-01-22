@@ -1,0 +1,71 @@
+{
+    "name": "Warrior-monk",
+    "years": "1d6",
+    "description": "You became a member of a militant monastic order, and were trained in philosophy and martial arts.",
+    "prerequisites": [
+        "religion or martial arts"
+    ],
+    "attributes": [
+        "AGI +1",
+        "END +1",
+        "INT +1",
+        "WIL +1"
+    ],
+    "skillChoices": [
+        "martial arts",
+        "acrobatics",
+        "religion",
+        "philosophy",
+        "dancing",
+        "[artistic]",
+        "staves"
+    ],
+    "exploits": [
+        {
+            "name": "Martial technique base",
+            "description": "You gain two of the following universal exploits: Trip, Throw, Sidestep, Flying Kick. You may take this exploit again to gain the remaining two exploits."
+        },
+        {
+            "name": "Iron fist",
+            "description": "Your unarmed damage increases by 1d6."
+        },
+        {
+            "name": "Martial leap",
+            "description": "Increase both your vertical and horizontal JUMP distances by 5'."
+        },
+        {
+            "name": "Defensive stance",
+            "description": "You gain +4 to your MELEE DEFENSE. This does not stack with Drunken Fist."
+        },
+        {
+            "name": "Weapon synthesis",
+            "description": "When using any Oriental weapon, you gain one free unarmed melee atatck whenever you make two weapon attacks."
+        },
+        {
+            "name": "Drunken fist",
+            "description": "When intoxicated through alcohol, you gain +4 to your MELEE DEFENSE. This does not stack with Defensive Stance."
+        },
+        {
+            "name": "Iron skin",
+            "description": "Your training grants you +2 natural SOAK."
+        },
+        {
+            "name": "Elemental fist",
+            "description": "Your fist is surrounded by the glow of elemental energy. The damage type becomes heat, and does an additional +1d6 damage.",
+            "requirements": [
+                "Iron Fist, MAG 2+"
+            ]
+        },
+        {
+            "name": "Mountain stance",
+            "description": "You become as immobile as a mountain. No knockdown or knockback attempt by a creature of your size or smaller will work against you.",
+            "requirements": [
+                "Defensive Stance"
+            ]
+        },
+        {
+            "name": "Zen mind",
+            "description": "You gain +4 to your MENTAL DEFENSE."
+        }
+    ]
+}

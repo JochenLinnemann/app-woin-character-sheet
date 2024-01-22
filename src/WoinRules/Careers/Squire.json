@@ -1,0 +1,46 @@
+{
+    "name": "Squire",
+    "years": "1",
+    "description": "You spent time as a squire to a noble knight. While some move straight into knighthood, paying your dues as a squire is the only way to truly rise to the top of the knightly tradition. You can always tell a knight who wasn't a squire first, as he lacks some of the basics.",
+    "prerequisites": [
+        "none"
+    ],
+    "attributes": [
+        "AGI +1",
+        "CHA +1",
+        "LUC +1",
+        "REP +1"
+    ],
+    "skillChoices": [
+        "lances",
+        "swords",
+        "heraldry",
+        "carrying",
+        "healing",
+        "animal handling",
+        "riding",
+        "bravery"
+    ],
+    "exploits": [
+        {
+            "name": "Sword-sharpener",
+            "description": "You know how to maintain your (or your liege's) equipment. One standard quality suit of armor and one standard quality melee weapon becomes high quality, as long as you spend an hour maintaining it every day."
+        },
+        {
+            "name": "Etiquette",
+            "description": "You learn the ways of court and castle; you gain a +1d6 bonus in situations which involve courtly etiquette, music, dance, and chivalry."
+        },
+        {
+            "name": "Loyal guardian",
+            "description": "You are able to protect a fallen ally. An unconscious character in an adjacent square cannot be further harmed while you remain adjacent to him; instead you take half damage (round down) from any attacks. In addition, you gain a +1d6 bonus to LOG checks made to stabilize a fallen character or to perform emergency healing on the battlefield."
+        },
+        {
+            "name": "Standard-bearer",
+            "description": "You can carry a flag or banner which grants allies who can see it +1d6 to INITIATIVE checks."
+        },
+        {
+            "name": "Dress wounds",
+            "description": "You can heal 1d6 HEALTH using a basic healer's kit; this costs two actions. No recipient can benefit from this more than once per day."
+        }
+    ]
+}

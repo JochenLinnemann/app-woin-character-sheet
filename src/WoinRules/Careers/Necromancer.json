@@ -1,0 +1,68 @@
+{
+    "name": "Necromancer",
+    "years": "1d6",
+    "description": "A master of the dark arts, a necromancer is able to summon, bind, and control the undead. Eventually, a necromancer turns into a terrifying lich, the most powerful of undead. A necromancer knows the ways of disease, poison, and the power of fear.",
+    "prerequisites": [
+        "secret of undead"
+    ],
+    "attributes": [
+        "LOG +1",
+        "WIL +1",
+        "CHA +1",
+        "MAG +1"
+    ],
+    "skillChoices": [
+        "[magical]",
+        "religion",
+        "alchemy",
+        "healing",
+        "[social]",
+        "knives"
+    ],
+    "exploits": [
+        {
+            "name": "Corpse visage",
+            "description": "Your skin and visage alter slightly, becoming more like the undead you surround yourself with. You gain 5 natural SOAK, but become Vulnerable 1d6 (Light) and your CHA attribute is reduced by 2 points (to a minimum of 2).",
+            "requirements": [
+                "Eyes of the Dead"
+            ]
+        },
+        {
+            "name": "Eyes of the dead",
+            "description": "You share the senses of the undead, gaining darksight 60'."
+        },
+        {
+            "name": "Necromantic Lore",
+            "description": "You gain the skills of summoning, affliction, and creation at a rank of 1 (1d6) if you do not already have them. You also gain the secrets of death and shadow."
+        },
+        {
+            "name": "One of us",
+            "description": "Undead of a lower grade than yourself are unable to attack or harm you in any way.",
+            "requirements": [
+                "Corpse Visage"
+            ]
+        },
+        {
+            "name": "Touch of the grave",
+            "description": "Your touch gains the foulness of death, doing an additional 1d6 death damage. You also kill any small (non creature) plants you come into contact with."
+        },
+        {
+            "name": "Undead servant",
+            "description": "You gain an undead slave \u2013 a skeleton or zombie \u2013 which obeys your every command until destroyed. If destroyed, you may summon a new one with a 24 hour ceremony and access to an appropriate corpse. You may take this exploit multiple times, gaining a new servant each time."
+        },
+        {
+            "name": "Undeath",
+            "description": "You perform a grotesque and elaborate ceremony and become undead yourself. You are now effectively immortal, and will never die of old age, although you will still visibly age forever unless you disguise yourself with illusions. You no longer need to breathe, eat, or sleep, and you are immune to poisons.",
+            "requirements": [
+                "One of Us"
+            ]
+        },
+        {
+            "name": "Vampiric touch",
+            "description": "You are able to steal the life essence of a victim for yourself. When you use your Touch of the Grave to do damage to another creature, you gain that amount of HEALTH.",
+            "requirements": [
+                "Touch of the Grave"
+            ]
+        }
+    ]
+}

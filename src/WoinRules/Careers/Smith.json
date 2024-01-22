@@ -1,0 +1,89 @@
+{
+    "name": "Smith",
+    "years": "1d6",
+    "description": "A smith is a master metalwork. Blacksmith, weaponsmith, armorer, a smith is able to create, maintain, and even enchant a warrior's tools. Many smiths combine traditions of smithing and alchemy to learn how to make magical weapons and armor.",
+    "prerequisites": [
+        "STR 4+"
+    ],
+    "attributes": [
+        "STR +1",
+        "END +1",
+        "LOG +1",
+        "REP +1"
+    ],
+    "skillChoices": [
+        "[crafting]",
+        "[artistic]",
+        "appraise"
+    ],
+    "exploits": [
+        {
+            "name": "Maintenance",
+            "description": "You know how to maintain equipment. Designate one standard quality suit of armor or a weapon; this item becomes high quality, as long as you spend an hour maintaining it every day."
+        },
+        {
+            "name": "Lore of the Masters",
+            "description": "You are able to identify rare or magical weapons and armor without making an attribute check."
+        },
+        {
+            "name": "Chink in the armor",
+            "description": "You know armor, and its styles well, including the weaknesses of each type. Once per suit of armor, you may ignore its SOAK value when attacking."
+        },
+        {
+            "name": "Forge",
+            "description": "You forge yourself a single standard quality weapon (weaponsmithing) or suit of armor (blackmithing), which you gain for free.",
+            "requirements": [
+                "weaponsmithing or armorer"
+            ]
+        },
+        {
+            "name": "Quality forge",
+            "description": "You forge yourself a single high quality weapon (weaponsmithing) or suit of armor (blackmithing); you must pay for the standard quality version, but it becomes high quality automatically.",
+            "requirements": [
+                "Forge; weaponsmithing 4 or armorer 4"
+            ]
+        },
+        {
+            "name": "Exceptional forge",
+            "description": "You forge yourself a single exceptional quality weapon (weaponsmithing) or suit of armor (blackmithing); you must pay for the standard quality version, but it becomes exceptional quality automatically. You may repeat this exploit.",
+            "requirements": [
+                "Quality Forge; weaponsmithing 7 or armorer 7"
+            ]
+        },
+        {
+            "name": "Master forge",
+            "description": "You forge yourself a single mastercraft quality weapon (weaponsmithing) or suit of armor (blackmithing); you must pay for the standard quality version, but it becomes mastercraft quality automatically. You may repeat this exploit.",
+            "requirements": [
+                "Exceptional Forge; weaponsmithing 10 or armorer 10"
+            ]
+        },
+        {
+            "name": "Artisanal forge",
+            "description": "You forge yourself a single artisanal quality weapon (weaponsmithing) or suit of armor (blackmithing); you must pay for the standard quality version, but it becomes artisanal quality automatically. You may repeat this exploit.",
+            "requirements": [
+                "Master Forge; weaponsmithing 12 or armorer 12"
+            ]
+        },
+        {
+            "name": "Legendary forge",
+            "description": "You forge yourself a single legendary quality weapon (weaponsmithing) or suit of armor (blackmithing); you must pay for the standard quality version, but it becomes legendary quality automatically. You may repeat this exploit.",
+            "requirements": [
+                "Artisinal Forge; MAG 3+; weaponsmithing 15 or armorer 15"
+            ]
+        },
+        {
+            "name": "Alchemical weapon",
+            "description": "You combine the Sticky Concoction ability from the Alchemist career and Master Forge or greater from the Smith career, the weapon you created permanently gains the effect granted by the Sticky Concoction. You may repeat this exploit.",
+            "requirements": [
+                "Master Forge, Sticky Concoction, MAG 4+"
+            ]
+        },
+        {
+            "name": "Alchemical armor",
+            "description": "You combine the Protective Oil ability from the Alchemist career and Exceptional Forge or greater from the Smith career, the armor you created permanently gains the extra protection granted by the Protective Oil. You may repeat this exploit.",
+            "requirements": [
+                "Exceptional Forge, Protective Oil, MAG 2+"
+            ]
+        }
+    ]
+}
