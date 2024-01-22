@@ -6,4 +6,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Careers\fantasy-origins.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Careers\fantasy-origins.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
 </Project>

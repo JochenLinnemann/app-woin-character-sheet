@@ -1,0 +1,75 @@
+﻿@inherits ComponentBase
+@using WoinRules
+@using WoinRules.Careers
+
+<div class="border-b border-gray-500">
+    Name: @Character.Name
+</div>
+<div class="border-b border-gray-500">
+    Descriptor: @Character.Descriptor
+</div>
+
+<div class="flex flex-row gap-2">
+    <div class="flex flex-col">
+        <Section Title="Attributes">
+            <ul class="flex flex-row gap-1">
+                @foreach (var attr in Character.Attributes)
+                {
+                    <li>
+                        <AttributeView Attribute="@attr"></AttributeView>
+                    </li>
+                }
+            </ul>
+        </Section>
+
+        <div class="flex flex-row gap-2">
+            <div class="flex-grow">
+                <Section Title="Skills">
+                    <ul class="flex flex-col gap-1">
+                        @foreach (var skill in Character.Skills.OrderByDescending(x => x.Value).ThenBy(x => x.Name))
+                        {
+                            <li>
+                                <SkillView Skill="@skill"></SkillView>
+                            </li>
+                        }
+                    </ul>
+                </Section>
+            </div>
+
+            <div class="flex-grow">
+                <Section Title="Derived Statistics">
+                    <span>Health</span>
+                    <span>Speed</span>
+                    <span>Jump</span>
+                    <span>Carry</span>
+                    <span>Initiative</span>
+                    <span>Defenses</span>
+                </Section>
+            </div>
+        </div>
+
+        <Section Title="Attacks">
+        </Section>
+
+        <Section Title="Exploits">
+        </Section>
+    </div>
+
+    <div class="flex flex-col grow">
+        <Section Title="Careers">
+        </Section>
+
+        <Section Title="Gear">
+        </Section>
+    </div>
+</div>
+
+@code {
+    [Parameter] public Character Character { get; set; } = null!;
+
+    protected override void OnInitialized()
+    {
+        var origins = Career.LoadOrigins(EraOfPlay.Archaic);
+    }
+
+}

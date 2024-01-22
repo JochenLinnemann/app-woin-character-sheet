@@ -1,0 +1,19 @@
+﻿@using WoinRules
+
+<div class="flex flex-row gap-2 border border-gray-400 rounded px-1 text-sm">
+    <span>@Skill.Name</span>
+    <input class="w-8 text-left bg-gray-100" type="text" pattern="0|[1-9][0-9]?" @bind-value="Skill.Value" />
+    <span class="flex-grow text-right w-12">
+        <span class="cursor-[url(../_content/CharacterSheet.Lib/svg/dice.svg),pointer]" @onclick="RollDice">@(Skill.DicePoolSize)d6</span>
+    </span>
+</div>
+
+@code {
+    [Parameter] public Skill Skill { get; set; } = null!;
+
+    private void RollDice()
+    {
+        var result = Skill.RollDice();
+        Console.WriteLine(result);
+    }
+}

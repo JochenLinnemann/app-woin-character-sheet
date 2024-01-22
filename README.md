@@ -12,3 +12,13 @@ License available at https://creativecommons.org/licenses/by/4.0/legalcode.
 ---
 
 Adding TailwindCSS Support: https://codewithmukesh.com/blog/integrating-tailwind-css-with-blazor/
+
+---
+
+# Development
+
+Develop using the CharacterSheet.Web project; in two consoles run:
+1. `dotnet watch`
+2. `npm run buildcss -- --watch`
+
+This enables full hot reload and provides faster feedback than MAUI hot-reload.
