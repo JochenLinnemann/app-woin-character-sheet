@@ -76,3 +76,92 @@ public class Exploit
 public class Prerequisite
 {
 }
+
+public class Character
+{
+}
+
+public class CharacterBuilder
+{
+    public Character CurrentCharacter { get; }
+
+    public CharacterBuilder AddCareer(Career career)
+    {
+        if (!CheckPrerequisites(career))
+            return this;
+
+        // TODO: Implement this method
+        // - Add career
+        //   - Apply attribute adjustments
+        //   - Apply skill levels
+        //   - Apply exploits
+        //   - Apply age increase
+
+        return this;
+    }
+
+    public bool CheckPrerequisites(IHasPrerequisites hasPrerequisites)
+    {
+        // TODO: Implement this method
+        // - Check if the character meets the prerequisites for the given career or heritage.
+        // - If the character does not meet the prerequisites, return false.
+        // - Log any unmet prerequisites.
+        // - If the character meets the prerequisites, return true.
+
+        return true;
+    }
+
+    public CharacterBuilder RemoveCareer(Career career)
+    {
+        // TODO: Check whether the character would still be valid if the career were removed
+        if (!CheckPrerequisites(career))
+            return this;
+
+        // TODO: Implement this method
+        // - Remove career
+        //   - Remove attribute adjustments
+        //   - Remove skill levels
+        //   - Remove exploits
+        //   - Remove age increase
+
+        return this;
+    }
+
+    public CharacterBuilder SetHeritage(Heritage heritage)
+    {
+        if (!CheckPrerequisites(heritage))
+            return this;
+
+        // TODO: Implement this method
+        // - Remove current heritage
+        //   - Remove attribute adjustments
+        //   - Remove skill levels
+        //   - Remove exploits
+        // - Set new heritage
+        //   - Apply attribute adjustments
+        //   - Apply skill levels
+        //   - Apply exploits
+
+        return this;
+    }
+
+    public CharacterBuilder SetOrigin(Career origin)
+    {
+        if (!CheckPrerequisites(origin))
+            return this;
+
+        // TODO: Implement this method
+        // - Remove current origin
+        //   - Remove attribute adjustments
+        //   - Remove skill levels
+        //   - Remove exploits
+        //   - Remove age increase
+        // - Set new origin
+        //   - Apply attribute adjustments
+        //   - Apply skill levels
+        //   - Apply exploits
+        //   - Apply age increase
+
+        return this;
+    }
+}
